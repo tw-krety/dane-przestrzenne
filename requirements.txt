@@ -1,0 +1,8 @@
+pandas
+networkx
+bs4
+tqdm
+qwlist
+lxml
+scipy
+matplotlib
