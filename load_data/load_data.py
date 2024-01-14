@@ -6,8 +6,8 @@ import networkx as nx
 
 from bs4 import BeautifulSoup, ResultSet
 from tqdm import tqdm
-from stops_utils import is_bus_line
-from typing import Literal, Union
+from typing import Union, Optional
+
 
 def __random_color() -> str:
     r = random.randint(0, 255)
@@ -63,7 +63,7 @@ class MPKGraphLoader:
         self.__total_graph = self.__get_total_graph(transfer_time)
     
     @property
-    def total_graph(self) -> nx.DiGraph:
+    def multigraph(self) -> nx.DiGraph:
         return self.__total_graph
     
     @property
@@ -76,6 +76,9 @@ class MPKGraphLoader:
     
     def __getitem__(self, line_name: str) -> nx.DiGraph:
         return self.__line_graphs[line_name]
+
+    def get_stop(self, name: str) -> list[Stop]:
+        return list(filter(lambda stop: stop == name, self.multigraph.nodes))
 
     def to_pickle(self, path: str):
         import pickle
@@ -115,10 +118,38 @@ class MPKGraphLoader:
     
     def get_sugraph(self, lines: list[str]) -> nx.DiGraph:
         ret = nx.DiGraph()
-        for u, v in self.total_graph.edges:
+        for u, v in self.multigraph.edges:
             if u.line in lines and v.line in lines:
-                ret.add_edge(u, v, time=self.total_graph[u][v])
+                ret.add_edge(u, v, time=self.multigraph[u][v])
         return ret
+    
+    def get_stops_in_range(self, start_name: str, max_time: float, transfer_time: Optional[float] = None) -> list[Stop]:
+        stops = list(filter(lambda stop: stop == start_name, self.multigraph.nodes))
+        ret = set()
+        for stop in stops:
+            accessible_stops = self.__find_accessible_stops(stop, max_time, transfer_time=transfer_time)
+            ret.update(accessible_stops)
+        return ret
+    
+    def __find_accessible_stops(self, start: Stop, max_time: float, transfer_time: Optional[float] = None) -> set[Stop]:
+        queue = [
+            (neighbour, edge_data['time']) if transfer_time is None or neighbour.line == start.line else (neighbour, transfer_time)
+            for neighbour, edge_data
+            in self.multigraph[start].items()
+        ]
+        visited_stops = set()
+        accessible_stops = []
+
+        while queue:
+            current_stop, current_time = queue.pop(0)
+            if current_stop not in visited_stops:
+                visited_stops.add(current_stop)
+                if current_time <= max_time:
+                    accessible_stops.append(current_stop)
+                    for neighbour, edge_data in self.multigraph[current_stop].items():
+                        travel_time = edge_data['time'] if transfer_time is None or neighbour.line == current_stop.line else transfer_time
+                        queue.append((neighbour, current_time + travel_time))
+        return accessible_stops
 
     
     def __load_stops_df(self) -> pd.DataFrame:
@@ -206,10 +237,10 @@ class MPKGraphLoader:
         for line1, line_1_graph in self.__line_graphs.items():
             for line2, line_2_graph in self.__line_graphs.items():
                 if line1 != line2:
-                    ret.add_nodes_from(line_1_graph.nodes)
-                    ret.add_nodes_from(line_2_graph.nodes)
-                    ret.add_edges_from(line_1_graph.edges)
-                    ret.add_edges_from(line_2_graph.edges)
+                    for u, v in line_1_graph.edges:
+                        ret.add_edge(u, v, time=line_1_graph[u][v]['time'])
+                    for u, v in line_2_graph.edges:
+                        ret.add_edge(u, v, time=line_2_graph[u][v]['time'])
 
                     line1_stop_names = set(map(lambda stop: stop.name, line_1_graph.nodes))
                     line2_stop_names = set(map(lambda stop: stop.name, line_2_graph.nodes))
