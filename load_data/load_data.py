@@ -67,12 +67,20 @@ class MPKGraphLoader:
         return self.__total_graph
     
     @property
+    def line_names(self) -> list[str]:
+        return list(self.__line_graphs.keys())
+    
+    @property
     def tram_line_names(self) -> list[str]:
         return list(filter(lambda x: not self.__is_bus_line(x), self.__line_graphs.keys()))
     
     @property
     def bus_line_names(self) -> list[str]:
         return list(filter(self.__is_bus_line, self.__line_graphs.keys()))
+    
+    @property
+    def stop_names(self) -> list[str]:
+        return list(set(map(lambda stop: stop.name, self.multigraph.nodes)))
     
     def __getitem__(self, line_name: str) -> nx.DiGraph:
         return self.__line_graphs[line_name]
