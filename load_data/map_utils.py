@@ -23,14 +23,15 @@ def get_map(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg:
     map_ = regions.explore(tooltip = False, highlight = False, column = "count", cmap="Blues", style_kwds = dict(opacity=0.05))
     map_ = stops.explore(color = "#ff7daf", m = map_, style_kwds = dict(opacity=0.8))
 
+    hex_area = regions.query("count > 0")['count'].sum()
+
     if transfer_cfg:
         stops_in_range = _find_stops_in_range(graph_loader, transfer_cfg)
         map_ = stops_in_range.explore(color = "#1eff00", m = map_)
         starting_stop = _get_starting_stop(graph_loader, transfer_cfg)
         map_ = starting_stop.explore(color = "#ff0000", m = map_)
         
-
-    return map_
+    return map_, hex_area
 
 def _get_regions(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg: TransferConfig) -> gpd.GeoDataFrame:
     area_name = f"{CITY}, {COUNTRY}"
