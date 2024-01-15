@@ -20,21 +20,17 @@ def get_map(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg:
 
     stops = _load_stops(graph_loader)
     regions = _get_regions(regions_resolution, graph_loader, transfer_cfg)
-    map_ = regions.explore(tooltip = False, highlight = False, column = "count", cmap="Blues", style_kwds = dict(opacity=0.1))
-    map_ = stops.explore(color = "red", m = map_)
+    map_ = regions.explore(tooltip = False, highlight = False, column = "count", cmap="Blues", style_kwds = dict(opacity=0.05))
+    map_ = stops.explore(color = "#ff7daf", m = map_, style_kwds = dict(opacity=0.8))
 
     if transfer_cfg:
         stops_in_range = _find_stops_in_range(graph_loader, transfer_cfg)
-        map_ = stops_in_range.explore(color = "green", m = map_)
+        map_ = stops_in_range.explore(color = "#1eff00", m = map_)
         starting_stop = _get_starting_stop(graph_loader, transfer_cfg)
-        map_ = starting_stop.explore(color = "purple", m = map_)
+        map_ = starting_stop.explore(color = "#ff0000", m = map_)
         
 
     return map_
-
-def _my_cmap(value):
-    print("XD")
-    return "blue"
 
 def _get_regions(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg: TransferConfig) -> gpd.GeoDataFrame:
     area_name = f"{CITY}, {COUNTRY}"
@@ -58,8 +54,6 @@ def _get_regions(regions_resolution: int, graph_loader: MPKGraphLoader, transfer
     ], axis = 1).fillna(0)
 
     return regions
-
-
 
 
 def _load_stops(graph_loader: MPKGraphLoader) -> gpd.GeoDataFrame:
