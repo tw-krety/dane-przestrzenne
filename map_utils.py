@@ -1,6 +1,7 @@
 from srai.regionalizers import geocode_to_region_gdf, H3Regionalizer
-from load_data import MPKGraphLoader
+from load_data.load_data import MPKGraphLoader
 from shapely.geometry import Point
+from matplotlib.colors import LinearSegmentedColormap
 import geopandas as gpd
 import pandas as pd
 
@@ -20,7 +21,12 @@ def get_map(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg:
 
     stops = _load_stops(graph_loader)
     regions = _get_regions(regions_resolution, graph_loader, transfer_cfg)
-    map_ = regions.explore(tooltip = False, highlight = False, column = "count", cmap="Blues", style_kwds = dict(opacity=0.05))
+
+    # stare rozwiązanie koloruje wszystkie hexy
+    # map_ = regions.explore(tooltip = False, highlight = False, column = "count", cmap='RdYlGn', style_kwds = dict(opacity=0.05))
+
+    # wykluczam hexy które mają count = 0
+    map_ = regions[regions['count'] != 0].explore(tooltip = False, highlight = False, column = "count", cmap='RdYlGn', style_kwds = dict(opacity=0.05))
     map_ = stops.explore(color = "#ff7daf", m = map_, style_kwds = dict(opacity=0.8))
 
     if transfer_cfg:
