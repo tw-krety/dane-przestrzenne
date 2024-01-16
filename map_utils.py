@@ -24,11 +24,7 @@ def get_map(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg:
     stops = _load_stops(graph_loader)
     regions = _get_regions(regions_resolution, graph_loader, transfer_cfg)
 
-    # stare rozwiązanie koloruje wszystkie hexy
-    # map_ = regions.explore(tooltip = False, highlight = False, column = "count", cmap='RdYlGn', style_kwds = dict(opacity=0.05))
-
-    # wykluczam hexy które mają count = 0
-    map_ = regions[regions['count'] != 0].explore(tooltip = False, highlight = False, column = "count", cmap='RdYlGn', style_kwds = dict(opacity=0.05))
+    map_ = regions.explore(tooltip = False, highlight = False, column = "count", cmap='Blues', style_kwds = dict(opacity=0.05))
     map_ = stops.explore(color = "#ff7daf", m = map_, style_kwds = dict(opacity=0.8))
 
     if transfer_cfg:
@@ -53,7 +49,6 @@ def get_izochrone_map(regions_resolution: int, graph_loader: MPKGraphLoader, tra
         raise ValueError(f"Regions resolution must be greater than 1. Currently {regions_resolution}")
     
     max_times = sorted(max_times, reverse=False)
-    stops = _load_stops(graph_loader)
     regions = _get_regions(regions_resolution, graph_loader, transfer_cfg)
     t_min, t_max = min(max_times), max(max_times)
     colors = _get_colors_from_cmap(max_times, vmin=t_min, vmax=t_max)
@@ -68,9 +63,12 @@ def get_izochrone_map(regions_resolution: int, graph_loader: MPKGraphLoader, tra
         already_collored.update(not_collored_data['geometry'])
         map_ = not_collored_data.explore(color=color, m=map_, tooltip=False, highlight=False, style_kwds=dict(opacity=0.05, fillOpacity=0.8))
     
+    unused_hexes = gpd.GeoDataFrame(regions['geometry'])
+    unused_hexes = unused_hexes[~unused_hexes['geometry'].isin(already_collored)]
+    map_ = unused_hexes.explore(color='#a9a9a9', m=map_)
+
     starting_stop = _get_starting_stop(graph_loader, transfer_cfg)
     map_ = starting_stop.explore(color="#ff0000", m=map_)
-    
     return map_
 
 
