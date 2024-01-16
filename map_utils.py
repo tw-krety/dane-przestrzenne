@@ -4,6 +4,8 @@ from shapely.geometry import Point
 from matplotlib.colors import LinearSegmentedColormap
 import geopandas as gpd
 import pandas as pd
+import matplotlib.colors as clr
+import matplotlib.pyplot as plt
 
 CITY = "Wroclaw"
 COUNTRY = "Poland"
@@ -45,7 +47,40 @@ def get_hex_area(regions_resolution: int, graph_loader: MPKGraphLoader, transfer
     hex_area = regions.query("count > 0")['count'].sum()
 
     return hex_area
+
+def get_izochrone_map(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg: TransferConfig, max_times: list[int]):
+    if regions_resolution <= 1:
+        raise ValueError(f"Regions resolution must be greater than 1. Currently {regions_resolution}")
     
+    max_times = sorted(max_times, reverse=False)
+    stops = _load_stops(graph_loader)
+    regions = _get_regions(regions_resolution, graph_loader, transfer_cfg)
+    t_min, t_max = min(max_times), max(max_times)
+    colors = _get_colors_from_cmap(max_times, vmin=t_min, vmax=t_max)
+
+    map_ = None
+    already_collored = set()
+    for time, color in zip(max_times, colors):
+        stops_in_rage = _find_stops_in_range(graph_loader, transfer_cfg=TransferConfig(transfer_cfg.start_name, time, transfer_cfg.transfer_time))
+        joined_data: gpd.GeoDataFrame = gpd.sjoin(regions, stops_in_rage)
+        not_collored_data: gpd.GeoDataFrame = joined_data[~joined_data['geometry'].isin(already_collored)]
+        not_collored_data = gpd.GeoDataFrame(not_collored_data['geometry']).drop_duplicates()
+        already_collored.update(not_collored_data['geometry'])
+        map_ = not_collored_data.explore(color=color, m=map_, tooltip=False, highlight=False, style_kwds=dict(opacity=0.05, fillOpacity=0.8))
+    
+    starting_stop = _get_starting_stop(graph_loader, transfer_cfg)
+    map_ = starting_stop.explore(color="#ff0000", m=map_)
+    
+    return map_
+
+
+def _get_colors_from_cmap(data, vmin, vmax):
+    cmap = clr.LinearSegmentedColormap.from_list('green to red', ['#7ddf64', '#ffc25e', '#e05263'], N=256)
+    norm = plt.Normalize(vmin=vmin, vmax=vmax)
+    colors = cmap(norm(data))
+    hex_colors = [clr.to_hex(c) for c in colors]
+    return hex_colors
+
 
 def _get_regions(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg: TransferConfig) -> gpd.GeoDataFrame:
     area_name = f"{CITY}, {COUNTRY}"
