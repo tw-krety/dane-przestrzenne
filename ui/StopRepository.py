@@ -4,25 +4,27 @@ from load_data.load_data import MPKGraphLoader
 
 
 @dataclass
-class StopEntity:
+class StopDTO:
     id: int
     name: str
-    
-    @property
-    def display_name(self) -> str:
-        return " ".join([word.capitalize() for word in self.name.split(" ")])\
+    display_name: str
+
+    def __init__(self, ident: int, name: str):
+        self.id = ident
+        self.name = name
+        self.display_name = " ".join([word.capitalize() for word in name.split(" ")])\
             .strip()
 
 
 class StopRepository:
 
-    def __init__(self, stops: list[StopEntity]):
+    def __init__(self, stops: list[StopDTO]):
         self.stops = stops
 
     def get_by_id(self, ident: int):
         return self.stops[ident]
 
-    def query(self, stop_name: str) -> list[StopEntity]:
+    def query(self, stop_name: str) -> list[StopDTO]:
         normalized_query = stop_name.lower()
         matching_stops = [stop for stop in self.stops if normalized_query in stop.name.lower()]
         return matching_stops
@@ -36,8 +38,8 @@ class StopRepository:
         common_stops = set.intersection(*stops)
 
         common_stops = list(sorted(common_stops))
-        stop_entities: list[StopEntity] = [
-            StopEntity(id=i, name=stop_name)
+        stop_entities: list[StopDTO] = [
+            StopDTO(ident=i, name=stop_name)
             for i, stop_name in enumerate(common_stops)
         ]
 

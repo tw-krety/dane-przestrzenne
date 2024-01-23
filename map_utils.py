@@ -1,3 +1,6 @@
+from functools import lru_cache
+
+from folium import folium
 from srai.regionalizers import geocode_to_region_gdf, H3Regionalizer
 from load_data.load_data import MPKGraphLoader
 from shapely.geometry import Point
@@ -48,7 +51,7 @@ def get_hex_area(regions_resolution: int, graph_loader: MPKGraphLoader, transfer
 
 
 def get_izochrone_map(regions_resolution: int, graph_loader: MPKGraphLoader, transfer_cfg: TransferConfig,
-                      max_times: list[int]):
+                      max_times: list[int], zoom_start: int = 12):
     if regions_resolution <= 1:
         raise ValueError(f"Regions resolution must be greater than 1. Currently {regions_resolution}")
 
@@ -58,6 +61,7 @@ def get_izochrone_map(regions_resolution: int, graph_loader: MPKGraphLoader, tra
     colors = _get_colors_from_cmap(max_times, vmin=t_min, vmax=t_max)
 
     map_ = None
+
     already_collored = set()
     for time, color in zip(max_times, colors):
         stops_in_rage = _find_stops_in_range(graph_loader, transfer_cfg=TransferConfig(transfer_cfg.start_name, time,
@@ -67,7 +71,8 @@ def get_izochrone_map(regions_resolution: int, graph_loader: MPKGraphLoader, tra
         not_collored_data = gpd.GeoDataFrame(not_collored_data['geometry']).drop_duplicates()
         already_collored.update(not_collored_data['geometry'])
         map_ = not_collored_data.explore(color=color, m=map_, tooltip=False, highlight=False,
-                                         style_kwds=dict(opacity=0.05, fillOpacity=0.8))
+                                         style_kwds=dict(opacity=0.05, fillOpacity=0.8),
+                                         zoom_start=zoom_start)
 
     unused_hexes = gpd.GeoDataFrame(regions['geometry'])
     unused_hexes = unused_hexes[~unused_hexes['geometry'].isin(already_collored)]
