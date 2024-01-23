@@ -14,3 +14,4 @@ plotly
 jupyter
 chardet
 Flask
+Flask-Caching

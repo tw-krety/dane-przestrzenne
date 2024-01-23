@@ -55,6 +55,7 @@
         <div class="map" id="map2">{{ map_html_2|safe }}</div>
     </div>
 
+    <!-- Stops search dropdown -->
     <script>
         $(document).ready(function() {
             $('#starting_stop').select2({
@@ -73,6 +74,7 @@
         });
     </script>
 
+    <!-- Updating maps -->
     <script>
         const updateMap = async (loader) => {
             try {
@@ -109,21 +111,6 @@
                 }
             });
         });
-
-        // $.ajax({
-        //     type: 'GET',
-        //     url: '/update_maps',
-        //     data: formData,
-        //     dataType: 'json',
-        //     success: (response) => {
-        //         if (response.loader_name === '2023') {
-        //             $("#map1").html(response.map_html)
-        //         }
-        //         else if (response.loader_name === '2024') {
-        //             $("#map2").html(response.map_html)
-        //         }
-        //     }
-        // });
     </script>
 </body>
 </html>
