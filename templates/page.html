@@ -38,7 +38,12 @@
     <form action="/" method="get">
 
         <label for="starting_stop">Starting stop:</label>
-        <select type="text" id="starting_stop" name="starting_stop"></select>
+        <select class="select2-container" id="starting_stop" name="starting_stop">
+            <!-- NOTE: Hard coded-->
+            <option>
+                Pl. Grunwaldzki
+            </option>
+        </select>
 
         <label for="transfer_time">Transfer time [min]:</label>
         <input type="number" id="transfer_time" name="transfer_time" required value="5">

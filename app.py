@@ -62,7 +62,7 @@ def search_stops():
     search_response = [
         {
             "id": stop.id,
-            "text": stop.name
+            "text": stop.display_name
         }
         for stop in matching_stops
     ]

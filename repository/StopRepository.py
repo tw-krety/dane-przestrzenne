@@ -7,6 +7,11 @@ from load_data.load_data import MPKGraphLoader
 class StopEntity:
     id: int
     name: str
+    
+    @property
+    def display_name(self) -> str:
+        return " ".join([word.capitalize() for word in self.name.split(" ")])\
+            .strip()
 
 
 class StopRepository:
