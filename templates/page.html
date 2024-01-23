@@ -10,6 +10,7 @@
         .map {
             width: 50%;
             height: 400px;
+            padding: 10px;
         }
         .select2-container {
             width: 100% !important;
@@ -44,15 +45,33 @@
             </option>
         </select>
 
+        <label for="stop_reach_max_time">Max Reach Time (min):</label>
+        <input type="range" id="stop_reach_max_time"
+               name="stop_reach_max_time" min="5" max="120" step="5"
+               value="{{ form_data.stop_reach_max_time }}">
+        <span id="stop_reach_max_time_value">15</span> minutes
+
         <label for="transfer_time">Transfer time [min]:</label>
         <input type="number" id="transfer_time" name="transfer_time" required value="{{ form_data.transfer_time }}">
+
+        <label for="network_kind">Network Kind:</label>
+        <select id="network_kind" name="network_kind">
+            <option value="all" selected>Tram + Bus</option>
+            <option value="tram">Tram only</option>
+            <option value="bus">Bus only</option>
+        </select>
 
         <input type="submit" value="Update Map">
     </form>
 
+     <div class="map-container">
+        <div class="map" id="map1">{{ default_map1|safe }}</div>
+        <div class="map" id="map2">{{ default_map2|safe }}</div>
+    </div>
+
     <div class="map-container">
-        <div class="map" id="map1">{{ map_html_1|safe }}</div>
-        <div class="map" id="map2">{{ map_html_2|safe }}</div>
+        <div class="map" id="iso_map1">{{ iso_map1|safe }}</div>
+        <div class="map" id="iso_map2">{{ iso_map2|safe }}</div>
     </div>
 
     <!-- Stops search dropdown -->
@@ -66,6 +85,7 @@
                     data: function (params) {
                         return {
                             q: params.term,
+                            network_kind: $('#network_kind').val(),
                             type: 'public'
                         };
                     }
@@ -74,17 +94,28 @@
         });
     </script>
 
+    <script>
+        $(document).ready(function() {
+            $('#stop_reach_max_time').on('input', function() {
+                $('#stop_reach_max_time_value').text($(this).val());
+            });
+        });
+    </script>
+
     <!-- Updating maps -->
     <script>
-        const updateMap = async (loader) => {
+        const updateMap = async (year, mapType) => {
             try {
                 return await $.ajax({
                     type: 'GET',
                     url: '/update_map',
                     data: {
-                        loader: loader,
+                        year: year,
+                        map_type: mapType,
+                        network_kind: $('#network_kind').val(),
                         starting_stop: $('#starting_stop').val(),
-                        transfer_time: $('#transfer_time').val()
+                        transfer_time: $('#transfer_time').val(),
+                        stop_reach_max_time: $('#stop_reach_max_time').val()
                     },
                     dataType: 'json'
                 });
@@ -99,13 +130,17 @@
                 event.preventDefault();
 
                 try {
-                    const [response1, response2] = await Promise.all([
-                        updateMap('2023'),
-                        updateMap('2024')
+                    const [iso1Response, iso2Response, map1Response, map2Response] = await Promise.all([
+                        updateMap('2023', 'iso'),
+                        updateMap('2024', 'iso'),
+                        updateMap('2023', 'default'),
+                        updateMap('2024', 'default')
                     ]);
 
-                    $('#map1').html(response1.map_html);
-                    $('#map2').html(response2.map_html);
+                    $('#iso_map1').html(iso1Response.map_html);
+                    $('#iso_map2').html(iso2Response.map_html);
+                    $('#map1').html(map1Response.map_html);
+                    $('#map2').html(map2Response.map_html);
                 } catch (error) {
                     console.error("Error updating maps:", error);
                 }
