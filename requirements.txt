@@ -6,3 +6,8 @@ qwlist
 lxml
 scipy
 matplotlib
+srai[osm]
+folium
+matplotlib
+mapclassify
+plotly

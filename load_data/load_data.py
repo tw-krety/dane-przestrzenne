@@ -52,38 +52,46 @@ class Stop:
 
 class MPKGraphLoader:
     def __init__(self, data_path: str, transfer_time: float = 5.0) -> None:
-        self.__data_path = data_path
-        self.__stops_data = self.__load_stops_df()
+        # Uninitialised 
+        if data_path is None:
+            self._data_path = None
+            self._stops_data = None
+            self._line_graphs = None
+            self._total_graph = None
+            return
+        self._data_path = data_path
+        self._stops_data = self.__load_stops_df()
         routes = self.__load_routes()
-        self.__line_graphs: dict[str, nx.DiGraph] = {}
+
+        self._line_graphs: dict[str, nx.DiGraph] = {}
         for line_name, routes_data in routes.items():
             line_graph = self.__get_line_graph(*routes_data)
-            self.__line_graphs[line_name] = line_graph
+            self._line_graphs[line_name] = line_graph
         
-        self.__total_graph = self.__get_total_graph(transfer_time)
+        self._total_graph = self._get_total_graph(transfer_time)
     
     @property
     def multigraph(self) -> nx.DiGraph:
-        return self.__total_graph
+        return self._total_graph
     
     @property
     def line_names(self) -> list[str]:
-        return list(self.__line_graphs.keys())
+        return list(self._line_graphs.keys())
     
     @property
     def tram_line_names(self) -> list[str]:
-        return list(filter(lambda x: not self.__is_bus_line(x), self.__line_graphs.keys()))
+        return list(filter(lambda x: not self.is_bus_line(x), self._line_graphs.keys()))
     
     @property
     def bus_line_names(self) -> list[str]:
-        return list(filter(self.__is_bus_line, self.__line_graphs.keys()))
+        return list(filter(self.is_bus_line, self._line_graphs.keys()))
     
     @property
     def stop_names(self) -> list[str]:
         return list(set(map(lambda stop: stop.name, self.multigraph.nodes)))
     
     def __getitem__(self, line_name: str) -> nx.DiGraph:
-        return self.__line_graphs[line_name]
+        return self._line_graphs[line_name]
 
     def get_stop(self, name: str) -> list[Stop]:
         return list(filter(lambda stop: stop == name, self.multigraph.nodes))
@@ -99,7 +107,8 @@ class MPKGraphLoader:
         with open(path, 'rb') as file:
             return pickle.load(file)
     
-    def __is_bus_line(self, name: str):
+    @staticmethod
+    def is_bus_line(name: str):
         if name.isalpha():
             return True
         try:
@@ -112,15 +121,15 @@ class MPKGraphLoader:
     
     def get_tram_liens(self) -> dict[str, nx.DiGraph]:
         ret = {}
-        for name, graph in self.__line_graphs.items():
-            if not self.__is_bus_line(name):
+        for name, graph in self._line_graphs.items():
+            if not self.is_bus_line(name):
                 ret[name] = graph
         return ret
     
     def get_bus_lines(self) -> dict[str, nx.DiGraph]:
         ret = {}
-        for name, graph in self.__line_graphs.items():
-            if self.__is_bus_line(name):
+        for name, graph in self._line_graphs.items():
+            if self.is_bus_line(name):
                 ret[name] = graph
         return ret
     
@@ -161,7 +170,7 @@ class MPKGraphLoader:
 
     
     def __load_stops_df(self) -> pd.DataFrame:
-        df_path = os.path.join(self.__data_path, 'stops.txt')
+        df_path = os.path.join(self._data_path, 'stops.txt')
         stops_df = pd.read_csv(df_path)
         stops_df = stops_df[['stop_name', 'stop_lat', 'stop_lon', 'stop_code']]
         stops_df['stop_name'] = stops_df['stop_name'].str.lower()
@@ -183,7 +192,7 @@ class MPKGraphLoader:
         return ret
     
     def __get_xml_paths(self) -> list[str]:
-        path = os.path.join(self.__data_path, 'lines')
+        path = os.path.join(self._data_path, 'lines')
         xmls = []
         for filename in os.listdir(path):
             full_path = os.path.join(path, filename, f'{filename}.xml')
@@ -212,7 +221,7 @@ class MPKGraphLoader:
                 time = int(stop.get('czas')) - delta_time
                 delta_time += time
             try:
-                lat, lon = self.__stops_data.loc[self.__stops_data['stop_name'] == name, ['stop_lat', 'stop_lon']].values[0]
+                lat, lon = self._stops_data.loc[self._stops_data['stop_name'] == name, ['stop_lat', 'stop_lon']].values[0]
             except IndexError:
                 lat, lon = None, None
                 errs_count += 1
@@ -240,10 +249,10 @@ class MPKGraphLoader:
             graph.add_edge(u, v, time=t)
         return graph
     
-    def __get_total_graph(self, transfer_time: float) -> nx.DiGraph:
+    def _get_total_graph(self, transfer_time: float) -> nx.DiGraph:
         ret = nx.DiGraph()
-        for line1, line_1_graph in self.__line_graphs.items():
-            for line2, line_2_graph in self.__line_graphs.items():
+        for line1, line_1_graph in self._line_graphs.items():
+            for line2, line_2_graph in self._line_graphs.items():
                 if line1 != line2:
                     for u, v in line_1_graph.edges:
                         ret.add_edge(u, v, time=line_1_graph[u][v]['time'])
@@ -260,3 +269,27 @@ class MPKGraphLoader:
                         ret.add_edge(line2_stop, line1_stop, time=transfer_time)
         ret.remove_edges_from(nx.selfloop_edges(ret))
         return ret
+    
+
+class TramGraphLoader(MPKGraphLoader):
+    def __init__(self, data_path: str, transfer_time: float = 5) -> None:
+        super().__init__(data_path, transfer_time)
+        tram_graphs = {
+            line_name: graph
+            for line_name, graph in self._line_graphs.items()
+            if not TramGraphLoader.is_bus_line(line_name)
+        }
+        self._line_graphs = tram_graphs
+        self._total_graph = self._get_total_graph(transfer_time)
+
+
+class BusGraphLoader(MPKGraphLoader):
+    def __init__(self, data_path: str, transfer_time: float = 5) -> None:
+        super().__init__(data_path, transfer_time)
+        tram_graphs = {
+            line_name: graph
+            for line_name, graph in self._line_graphs.items()
+            if BusGraphLoader.is_bus_line(line_name)
+        }
+        self._line_graphs = tram_graphs
+        self._total_graph = self._get_total_graph(transfer_time)

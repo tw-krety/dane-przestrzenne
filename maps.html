@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .map-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .map {
+        flex: 1;
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+    <button onclick="toggleMaps('map-container-1')" id="toggle-btn-1">Wszystkie linie</button>
+    <button onclick="toggleMaps('map-container-2')" id="toggle-btn-2">Linie tramwajowe</button>
+    <button onclick="toggleMaps('map-container-3')" id="toggle-btn-3">Linie autobusowe</button>
+    <div class="map-container" id="map-container-1">
+        <div class="map">
+            <iframe src="maps/map_2023.html" width="100%" height="700px"></iframe>
+        </div>
+        <div class="map">
+            <iframe src="maps/map_2024.html" width="100%" height="700px"></iframe>
+        </div>
+    </div>
+
+    <div class="map-container" id="map-container-2">
+        <div class="map">
+            <iframe src="maps/tram_map_2023.html" width="100%" height="700px"></iframe>
+        </div>
+        <div class="map">
+            <iframe src="maps/tram_map_2024.html" width="100%" height="700px"></iframe>
+        </div>
+    </div>
+
+    <div class="map-container" id="map-container-3">
+        <div class="map">
+            <iframe src="maps/bus_map_2023.html" width="100%" height="700px"></iframe>
+        </div>
+        <div class="map">
+            <iframe src="maps/bus_map_2024.html" width="100%" height="700px"></iframe>
+        </div>
+    </div>
+
+    <script>
+        function toggleMaps(containerId, btnId) {
+            var container = document.getElementById(containerId);
+            var button = document.getElementById(btnId);
+
+            if (container.style.display === 'none' || container.style.display === '') {
+                container.style.display = 'flex';
+                button.style.backgroundColor = 'green';
+            } else {
+                container.style.display = 'none';
+                button.style.backgroundColor = 'red';
+            }
+        }
+    </script>
+</body>
+</html>
