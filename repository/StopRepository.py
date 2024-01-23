@@ -28,7 +28,7 @@ class StopRepository:
             set(loader.stop_names)
             for loader in loaders
         ]
-        common_stops = set.union(*stops)
+        common_stops = set.intersection(*stops)
 
         common_stops = list(sorted(common_stops))
         stop_entities: list[StopEntity] = [

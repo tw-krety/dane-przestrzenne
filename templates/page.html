@@ -16,12 +16,20 @@
         }
     </style>
 
-    <!--  jquery  -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-    <!--  select2  -->
+    <!-- Select2 -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
 
 </head>
 <body>
@@ -30,10 +38,10 @@
     <form action="/" method="get">
 
         <label for="starting_stop">Starting stop:</label>
-        <input type="text" id="starting_stop" name="starting_stop" required>
+        <select type="text" id="starting_stop" name="starting_stop"></select>
 
         <label for="transfer_time">Transfer time [min]:</label>
-        <input type="number" id="transfer_time" name="transfer_time" required>
+        <input type="number" id="transfer_time" name="transfer_time" required value="5">
 
         <input type="submit" value="Update Map">
     </form>
@@ -44,23 +52,21 @@
     </div>
 
     <script>
-    $(document).ready(function() {
-        $('#starting_stop').select2({
-            ajax: {
-                url: '/search_stops',
-                dataType: 'json',
-                placeholder: 'Search for a stop',
-                minimumResultsForSearch: 1,
-                data: function (params) {
-                    return {
-                        q: params.term,
-                        type: 'public'
-                    };
+        $(document).ready(function() {
+            $('#starting_stop').select2({
+                ajax: {
+                    url: '/search_stops',
+                    dataType: 'json',
+                    delay: 50,
+                    data: function (params) {
+                        return {
+                            q: params.term,
+                            type: 'public'
+                        };
+                    }
                 }
-            }
+            });
         });
-    });
-</script>
-
+    </script>
 </body>
 </html>

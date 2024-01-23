@@ -1,3 +1,5 @@
+import dataclasses
+
 import folium
 from flask import Flask, render_template, request, jsonify
 
@@ -22,7 +24,7 @@ stop_repository = StopRepository.from_loaders([loader_2023, loader_2024])
 @app.route('/')
 def map_view():
     starting_stop_id: int = request.args.get('starting_stop', default=0, type=int)
-    transfer_time = request.args.get('transfer_time', default=15, type=int)
+    transfer_time = request.args.get('transfer_time', default=5, type=int)
 
     stop_name = stop_repository.get_by_id(starting_stop_id).name
     map1, map2 = compute_isochrone_maps(stop_name, transfer_time)
