@@ -11,3 +11,6 @@ folium
 matplotlib
 mapclassify
 plotly
+jupyter
+chardet
+Flask

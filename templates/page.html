@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map View</title>
+
+    <style>
+        .map-container {
+            display: flex;
+        }
+        .map {
+            width: 50%;
+            height: 400px;
+        }
+        .select2-container {
+            width: 100% !important;
+        }
+    </style>
+
+    <!--  jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!--  select2  -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+</head>
+<body>
+    <h1>Map View</h1>
+
+    <form action="/" method="get">
+
+        <label for="starting_stop">Starting stop:</label>
+        <input type="text" id="starting_stop" name="starting_stop" required>
+
+        <label for="transfer_time">Transfer time [min]:</label>
+        <input type="number" id="transfer_time" name="transfer_time" required>
+
+        <input type="submit" value="Update Map">
+    </form>
+
+    <div class="map-container">
+        <div class="map" id="map1">{{ map_html_1|safe }}</div>
+        <div class="map" id="map2">{{ map_html_2|safe }}</div>
+    </div>
+
+    <script>
+    $(document).ready(function() {
+        $('#starting_stop').select2({
+            ajax: {
+                url: '/search_stops',
+                dataType: 'json',
+                placeholder: 'Search for a stop',
+                minimumResultsForSearch: 1,
+                data: function (params) {
+                    return {
+                        q: params.term,
+                        type: 'public'
+                    };
+                }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
