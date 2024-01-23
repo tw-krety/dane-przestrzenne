@@ -1,0 +1,3605 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<linie>
+ <linia nazwa="150" typ="Normalna autobusowa" wazny_od="13.03.2023" wazny_do="">
+  <wariant id="1" nazwa="OSIEDLE SOBIESKIEGO - LITEWSKA" obj="p.zmudzka i provita">
+   <przystanek id="29532" nazwa="OSIEDLE SOBIESKIEGO" ulica="Królewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="0"/>
+     <przystanek numer="1" id="29522" nazwa="Królewska" czas="1"/>
+     <przystanek numer="2" id="29119" nazwa="PSIE POLE (Stacja kolejowa)" czas="4"/>
+     <przystanek numer="3" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="6"/>
+     <przystanek numer="4" id="29114" nazwa="Dobroszycka" czas="7"/>
+     <przystanek numer="5" id="29120" nazwa="PSIE POLE (Stacja kolejowa)" czas="8"/>
+     <przystanek numer="6" id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="9"/>
+     <przystanek numer="7" id="29137" nazwa="MULICKA" czas="10"/>
+     <przystanek numer="8" id="29123" nazwa="Gorlicka" czas="11"/>
+     <przystanek numer="9" id="29321" nazwa="Szewczenki" czas="12"/>
+     <przystanek numer="10" id="29311" nazwa="Poleska" czas="13"/>
+     <przystanek numer="11" id="29313" nazwa="Kiełczowska" czas="14"/>
+     <przystanek numer="12" id="29315" nazwa="Żmudzka" czas="15"/>
+     <przystanek numer="13" id="29317" nazwa="Kowieńska" czas="16"/>
+     <przystanek numer="14" id="29319" nazwa="Inflancka" czas="17"/>
+     <przystanek numer="15" id="29328" nazwa="LITEWSKA" czas="18"/>
+    </czasy>
+    <tabliczka id="1" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="05">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="03">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="07" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="02" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="30" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="15" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="18">
+       </min>
+       <min m="45" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="11">
+       </min>
+       <min m="37" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="33" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="53" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="13" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="00">
+       </min>
+       <min m="26">
+       </min>
+       <min m="58" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="00" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="24">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="39" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="01" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="18" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="49" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="09" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29522" nazwa="Królewska" ulica="Królewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29522" nazwa="Królewska" czas="0"/>
+     <przystanek numer="1" id="29119" nazwa="PSIE POLE (Stacja kolejowa)" czas="3"/>
+     <przystanek numer="2" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="5"/>
+     <przystanek numer="3" id="29114" nazwa="Dobroszycka" czas="6"/>
+     <przystanek numer="4" id="29120" nazwa="PSIE POLE (Stacja kolejowa)" czas="7"/>
+     <przystanek numer="5" id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="8"/>
+     <przystanek numer="6" id="29137" nazwa="MULICKA" czas="9"/>
+     <przystanek numer="7" id="29123" nazwa="Gorlicka" czas="10"/>
+     <przystanek numer="8" id="29321" nazwa="Szewczenki" czas="11"/>
+     <przystanek numer="9" id="29311" nazwa="Poleska" czas="12"/>
+     <przystanek numer="10" id="29313" nazwa="Kiełczowska" czas="13"/>
+     <przystanek numer="11" id="29315" nazwa="Żmudzka" czas="14"/>
+     <przystanek numer="12" id="29317" nazwa="Kowieńska" czas="15"/>
+     <przystanek numer="13" id="29319" nazwa="Inflancka" czas="16"/>
+     <przystanek numer="14" id="29328" nazwa="LITEWSKA" czas="17"/>
+    </czasy>
+    <tabliczka id="2" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="04">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="08" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="03" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="31" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="16" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+       <min m="46" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="12">
+       </min>
+       <min m="38" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="34" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="54" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="01">
+       </min>
+       <min m="27">
+       </min>
+       <min m="59" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="01" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="25">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="15" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="40" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="02" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="19" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="50" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="10" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29119" nazwa="PSIE POLE (Stacja kolejowa)" ulica="Dobroszycka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29119" nazwa="PSIE POLE (Stacja kolejowa)" czas="0"/>
+     <przystanek numer="1" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="2"/>
+     <przystanek numer="2" id="29114" nazwa="Dobroszycka" czas="3"/>
+     <przystanek numer="3" id="29120" nazwa="PSIE POLE (Stacja kolejowa)" czas="4"/>
+     <przystanek numer="4" id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="5"/>
+     <przystanek numer="5" id="29137" nazwa="MULICKA" czas="6"/>
+     <przystanek numer="6" id="29123" nazwa="Gorlicka" czas="7"/>
+     <przystanek numer="7" id="29321" nazwa="Szewczenki" czas="8"/>
+     <przystanek numer="8" id="29311" nazwa="Poleska" czas="9"/>
+     <przystanek numer="9" id="29313" nazwa="Kiełczowska" czas="10"/>
+     <przystanek numer="10" id="29315" nazwa="Żmudzka" czas="11"/>
+     <przystanek numer="11" id="29317" nazwa="Kowieńska" czas="12"/>
+     <przystanek numer="12" id="29319" nazwa="Inflancka" czas="13"/>
+     <przystanek numer="13" id="29328" nazwa="LITEWSKA" czas="14"/>
+    </czasy>
+    <tabliczka id="3" mc="3">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="07">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="11" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="06" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="34" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+       <min m="49" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="15">
+       </min>
+       <min m="41" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="02">
+       </min>
+       <min m="37" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="57" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="17" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="04">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="02" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="04" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="28">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="18" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="43" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="05" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="22" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="53" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="13" ozn="W" przyp="W -  kurs do Litewskiej z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="0"/>
+     <przystanek numer="1" id="29114" nazwa="Dobroszycka" czas="1"/>
+     <przystanek numer="2" id="29120" nazwa="PSIE POLE (Stacja kolejowa)" czas="2"/>
+     <przystanek numer="3" id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="3"/>
+     <przystanek numer="4" id="29137" nazwa="MULICKA" czas="4"/>
+     <przystanek numer="5" id="29123" nazwa="Gorlicka" czas="5"/>
+     <przystanek numer="6" id="29321" nazwa="Szewczenki" czas="6"/>
+     <przystanek numer="7" id="29311" nazwa="Poleska" czas="7"/>
+     <przystanek numer="8" id="29313" nazwa="Kiełczowska" czas="8"/>
+     <przystanek numer="9" id="29315" nazwa="Żmudzka" czas="9"/>
+     <przystanek numer="10" id="29317" nazwa="Kowieńska" czas="10"/>
+     <przystanek numer="11" id="29319" nazwa="Inflancka" czas="11"/>
+     <przystanek numer="12" id="29328" nazwa="LITEWSKA" czas="12"/>
+    </czasy>
+    <tabliczka id="4" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="09">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="13" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="08" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="36" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="24">
+       </min>
+       <min m="51" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="17">
+       </min>
+       <min m="43" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="04">
+       </min>
+       <min m="39" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="59" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="19" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="06">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="04" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="06" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="30">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29114" nazwa="Dobroszycka" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29114" nazwa="Dobroszycka" czas="0"/>
+     <przystanek numer="1" id="29120" nazwa="PSIE POLE (Stacja kolejowa)" czas="1"/>
+     <przystanek numer="2" id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="2"/>
+     <przystanek numer="3" id="29137" nazwa="MULICKA" czas="3"/>
+     <przystanek numer="4" id="29123" nazwa="Gorlicka" czas="4"/>
+     <przystanek numer="5" id="29321" nazwa="Szewczenki" czas="5"/>
+     <przystanek numer="6" id="29311" nazwa="Poleska" czas="6"/>
+     <przystanek numer="7" id="29313" nazwa="Kiełczowska" czas="7"/>
+     <przystanek numer="8" id="29315" nazwa="Żmudzka" czas="8"/>
+     <przystanek numer="9" id="29317" nazwa="Kowieńska" czas="9"/>
+     <przystanek numer="10" id="29319" nazwa="Inflancka" czas="10"/>
+     <przystanek numer="11" id="29328" nazwa="LITEWSKA" czas="11"/>
+    </czasy>
+    <tabliczka id="6" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="10">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="14" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="09" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="37" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+       <min m="52" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="18">
+       </min>
+       <min m="44" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="05">
+       </min>
+       <min m="40" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="00" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="20" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="07">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="05" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="07" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="31">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="06" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="23">
+       </min>
+       <min m="54" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29120" nazwa="PSIE POLE (Stacja kolejowa)" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29120" nazwa="PSIE POLE (Stacja kolejowa)" czas="0"/>
+     <przystanek numer="1" id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="1"/>
+     <przystanek numer="2" id="29137" nazwa="MULICKA" czas="2"/>
+     <przystanek numer="3" id="29123" nazwa="Gorlicka" czas="3"/>
+     <przystanek numer="4" id="29321" nazwa="Szewczenki" czas="4"/>
+     <przystanek numer="5" id="29311" nazwa="Poleska" czas="5"/>
+     <przystanek numer="6" id="29313" nazwa="Kiełczowska" czas="6"/>
+     <przystanek numer="7" id="29315" nazwa="Żmudzka" czas="7"/>
+     <przystanek numer="8" id="29317" nazwa="Kowieńska" czas="8"/>
+     <przystanek numer="9" id="29319" nazwa="Inflancka" czas="9"/>
+     <przystanek numer="10" id="29328" nazwa="LITEWSKA" czas="10"/>
+    </czasy>
+    <tabliczka id="7" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="10" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="38" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="23" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="26">
+       </min>
+       <min m="58" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="19">
+       </min>
+       <min m="45" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="11">
+       </min>
+       <min m="41" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="01" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="21" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="08">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="11" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="08" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="32">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="25" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="07" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="24">
+       </min>
+       <min m="55" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="15">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" ulica="ks. Mariana Stanety" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29135" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="0"/>
+     <przystanek numer="1" id="29137" nazwa="MULICKA" czas="1"/>
+     <przystanek numer="2" id="29123" nazwa="Gorlicka" czas="2"/>
+     <przystanek numer="3" id="29321" nazwa="Szewczenki" czas="3"/>
+     <przystanek numer="4" id="29311" nazwa="Poleska" czas="4"/>
+     <przystanek numer="5" id="29313" nazwa="Kiełczowska" czas="5"/>
+     <przystanek numer="6" id="29315" nazwa="Żmudzka" czas="6"/>
+     <przystanek numer="7" id="29317" nazwa="Kowieńska" czas="7"/>
+     <przystanek numer="8" id="29319" nazwa="Inflancka" czas="8"/>
+     <przystanek numer="9" id="29328" nazwa="LITEWSKA" czas="9"/>
+    </czasy>
+    <tabliczka id="8" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="16" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="11" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="39" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="24" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="27">
+       </min>
+       <min m="59" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="20">
+       </min>
+       <min m="46" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="12">
+       </min>
+       <min m="42" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="02" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="22" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="09">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="12" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="09" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="33">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="26" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="08" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="25">
+       </min>
+       <min m="56" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="16">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29137" nazwa="MULICKA" ulica="Gorlicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29137" nazwa="MULICKA" czas="0"/>
+     <przystanek numer="1" id="29123" nazwa="Gorlicka" czas="1"/>
+     <przystanek numer="2" id="29321" nazwa="Szewczenki" czas="2"/>
+     <przystanek numer="3" id="29311" nazwa="Poleska" czas="3"/>
+     <przystanek numer="4" id="29313" nazwa="Kiełczowska" czas="4"/>
+     <przystanek numer="5" id="29315" nazwa="Żmudzka" czas="5"/>
+     <przystanek numer="6" id="29317" nazwa="Kowieńska" czas="6"/>
+     <przystanek numer="7" id="29319" nazwa="Inflancka" czas="7"/>
+     <przystanek numer="8" id="29328" nazwa="LITEWSKA" czas="8"/>
+    </czasy>
+    <tabliczka id="9" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="12" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="40" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="00">
+       </min>
+       <min m="25" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="00" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="21">
+       </min>
+       <min m="47" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="13">
+       </min>
+       <min m="43" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="03" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="23" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="10">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="10" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="34">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="27" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="09" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="26">
+       </min>
+       <min m="57" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29123" nazwa="Gorlicka" ulica="Gorlicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29123" nazwa="Gorlicka" czas="0"/>
+     <przystanek numer="1" id="29321" nazwa="Szewczenki" czas="1"/>
+     <przystanek numer="2" id="29311" nazwa="Poleska" czas="2"/>
+     <przystanek numer="3" id="29313" nazwa="Kiełczowska" czas="3"/>
+     <przystanek numer="4" id="29315" nazwa="Żmudzka" czas="4"/>
+     <przystanek numer="5" id="29317" nazwa="Kowieńska" czas="5"/>
+     <przystanek numer="6" id="29319" nazwa="Inflancka" czas="6"/>
+     <przystanek numer="7" id="29328" nazwa="LITEWSKA" czas="7"/>
+    </czasy>
+    <tabliczka id="10" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="18" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="41" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="01">
+       </min>
+       <min m="26" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="01" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="22">
+       </min>
+       <min m="48" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="14">
+       </min>
+       <min m="44" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="04" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="24" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="11">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="11" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="00">
+       </min>
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="28" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="10" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="27">
+       </min>
+       <min m="58" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="18">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29321" nazwa="Szewczenki" ulica="Litewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29321" nazwa="Szewczenki" czas="0"/>
+     <przystanek numer="1" id="29311" nazwa="Poleska" czas="1"/>
+     <przystanek numer="2" id="29313" nazwa="Kiełczowska" czas="2"/>
+     <przystanek numer="3" id="29315" nazwa="Żmudzka" czas="3"/>
+     <przystanek numer="4" id="29317" nazwa="Kowieńska" czas="4"/>
+     <przystanek numer="5" id="29319" nazwa="Inflancka" czas="5"/>
+     <przystanek numer="6" id="29328" nazwa="LITEWSKA" czas="6"/>
+    </czasy>
+    <tabliczka id="11" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="19" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="14" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="42" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="02">
+       </min>
+       <min m="27" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="02" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="23">
+       </min>
+       <min m="49" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="15">
+       </min>
+       <min m="45" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="05" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="25" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="12">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="12" ozn="X" przyp="X - kurs do Litewskiej z pominięciem przystanków: Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="01">
+       </min>
+       <min m="27">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="29" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="11" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+       <min m="28">
+       </min>
+       <min m="59" ozn="C" przyp="C - kurs do Litewskiej z pominięciem przystanków: Bierutowska (Ośrodek zdrowia), Poleska, Kiełczowska, Żmudzka, Kowieńska i Inflancka.">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="19">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29311" nazwa="Poleska" ulica="Kiełczowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29311" nazwa="Poleska" czas="0"/>
+     <przystanek numer="1" id="29313" nazwa="Kiełczowska" czas="1"/>
+     <przystanek numer="2" id="29315" nazwa="Żmudzka" czas="2"/>
+     <przystanek numer="3" id="29317" nazwa="Kowieńska" czas="3"/>
+     <przystanek numer="4" id="29319" nazwa="Inflancka" czas="4"/>
+     <przystanek numer="5" id="29328" nazwa="LITEWSKA" czas="5"/>
+    </czasy>
+    <tabliczka id="12" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="18">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="20">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="03">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="13">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="02">
+       </min>
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="20">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29313" nazwa="Kiełczowska" ulica="Kiełczowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29313" nazwa="Kiełczowska" czas="0"/>
+     <przystanek numer="1" id="29315" nazwa="Żmudzka" czas="1"/>
+     <przystanek numer="2" id="29317" nazwa="Kowieńska" czas="2"/>
+     <przystanek numer="3" id="29319" nazwa="Inflancka" czas="3"/>
+     <przystanek numer="4" id="29328" nazwa="LITEWSKA" czas="4"/>
+    </czasy>
+    <tabliczka id="13" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="21">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="04">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="14">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="03">
+       </min>
+       <min m="29">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="21">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29315" nazwa="Żmudzka" ulica="Żmudzka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29315" nazwa="Żmudzka" czas="0"/>
+     <przystanek numer="1" id="29317" nazwa="Kowieńska" czas="1"/>
+     <przystanek numer="2" id="29319" nazwa="Inflancka" czas="2"/>
+     <przystanek numer="3" id="29328" nazwa="LITEWSKA" czas="3"/>
+    </czasy>
+    <tabliczka id="14" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="22">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="05">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="04">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="00">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="22">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29317" nazwa="Kowieńska" ulica="Litewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29317" nazwa="Kowieńska" czas="0"/>
+     <przystanek numer="1" id="29319" nazwa="Inflancka" czas="1"/>
+     <przystanek numer="2" id="29328" nazwa="LITEWSKA" czas="2"/>
+    </czasy>
+    <tabliczka id="15" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="23">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="06">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="16">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="05">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="01">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="23">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29319" nazwa="Inflancka" ulica="Litewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29319" nazwa="Inflancka" czas="0"/>
+     <przystanek numer="1" id="29328" nazwa="LITEWSKA" czas="1"/>
+    </czasy>
+    <tabliczka id="16" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="24">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="07">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="20">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="17">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="06">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="02">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="24">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29328" nazwa="LITEWSKA" ulica="Litewska" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="2" nazwa="LITEWSKA - OSIEDLE SOBIESKIEGO" obj="p.zmudzka i provita">
+   <przystanek id="29328" nazwa="LITEWSKA" ulica="Litewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29328" nazwa="LITEWSKA" czas="0"/>
+     <przystanek numer="1" id="29320" nazwa="Inflancka" czas="1"/>
+     <przystanek numer="2" id="29318" nazwa="Kowieńska" czas="2"/>
+     <przystanek numer="3" id="29316" nazwa="Żmudzka" czas="3"/>
+     <przystanek numer="4" id="29314" nazwa="Kiełczowska" czas="5"/>
+     <przystanek numer="5" id="29312" nazwa="Poleska" czas="6"/>
+     <przystanek numer="6" id="29322" nazwa="Szewczenki" czas="8"/>
+     <przystanek numer="7" id="29124" nazwa="Gorlicka" czas="9"/>
+     <przystanek numer="8" id="29100" nazwa="MULICKA" czas="10"/>
+     <przystanek numer="9" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="12"/>
+     <przystanek numer="10" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="13"/>
+     <przystanek numer="11" id="29107" nazwa="Dobroszycka" czas="14"/>
+     <przystanek numer="12" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="15"/>
+     <przystanek numer="13" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="16"/>
+     <przystanek numer="14" id="29521" nazwa="Królewska" czas="19"/>
+     <przystanek numer="15" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="21"/>
+    </czasy>
+    <tabliczka id="17" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="27">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="28">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="00">
+       </min>
+       <min m="22">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="23">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="08">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="11">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="04">
+       </min>
+       <min m="30">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="26">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="06">
+       </min>
+       <min m="26">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="19">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="18">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="17">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="08" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="33" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="55" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="12" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="43" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="03" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29320" nazwa="Inflancka" ulica="Litewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29320" nazwa="Inflancka" czas="0"/>
+     <przystanek numer="1" id="29318" nazwa="Kowieńska" czas="1"/>
+     <przystanek numer="2" id="29316" nazwa="Żmudzka" czas="2"/>
+     <przystanek numer="3" id="29314" nazwa="Kiełczowska" czas="4"/>
+     <przystanek numer="4" id="29312" nazwa="Poleska" czas="5"/>
+     <przystanek numer="5" id="29322" nazwa="Szewczenki" czas="7"/>
+     <przystanek numer="6" id="29124" nazwa="Gorlicka" czas="8"/>
+     <przystanek numer="7" id="29100" nazwa="MULICKA" czas="9"/>
+     <przystanek numer="8" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="11"/>
+     <przystanek numer="9" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="12"/>
+     <przystanek numer="10" id="29107" nazwa="Dobroszycka" czas="13"/>
+     <przystanek numer="11" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="14"/>
+     <przystanek numer="12" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="15"/>
+     <przystanek numer="13" id="29521" nazwa="Królewska" czas="18"/>
+     <przystanek numer="14" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="20"/>
+    </czasy>
+    <tabliczka id="18" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="28">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="29">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="01">
+       </min>
+       <min m="23">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="20">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="24">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="09">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="12">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="05">
+       </min>
+       <min m="31">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="27">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="07">
+       </min>
+       <min m="27">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="20">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="19">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="18">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="09" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="34" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="56" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="13" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="44" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="04" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29318" nazwa="Kowieńska" ulica="Litewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29318" nazwa="Kowieńska" czas="0"/>
+     <przystanek numer="1" id="29316" nazwa="Żmudzka" czas="1"/>
+     <przystanek numer="2" id="29314" nazwa="Kiełczowska" czas="3"/>
+     <przystanek numer="3" id="29312" nazwa="Poleska" czas="4"/>
+     <przystanek numer="4" id="29322" nazwa="Szewczenki" czas="6"/>
+     <przystanek numer="5" id="29124" nazwa="Gorlicka" czas="7"/>
+     <przystanek numer="6" id="29100" nazwa="MULICKA" czas="8"/>
+     <przystanek numer="7" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="10"/>
+     <przystanek numer="8" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="11"/>
+     <przystanek numer="9" id="29107" nazwa="Dobroszycka" czas="12"/>
+     <przystanek numer="10" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="13"/>
+     <przystanek numer="11" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="14"/>
+     <przystanek numer="12" id="29521" nazwa="Królewska" czas="17"/>
+     <przystanek numer="13" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="19"/>
+    </czasy>
+    <tabliczka id="19" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="02">
+       </min>
+       <min m="24">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="25">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="10">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="13">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="06">
+       </min>
+       <min m="32">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="28">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+       <min m="28">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="20">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="19">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="10" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="35" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="57" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="14" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="45" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="05" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29316" nazwa="Żmudzka" ulica="Żmudzka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29316" nazwa="Żmudzka" czas="0"/>
+     <przystanek numer="1" id="29314" nazwa="Kiełczowska" czas="2"/>
+     <przystanek numer="2" id="29312" nazwa="Poleska" czas="3"/>
+     <przystanek numer="3" id="29322" nazwa="Szewczenki" czas="5"/>
+     <przystanek numer="4" id="29124" nazwa="Gorlicka" czas="6"/>
+     <przystanek numer="5" id="29100" nazwa="MULICKA" czas="7"/>
+     <przystanek numer="6" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="9"/>
+     <przystanek numer="7" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="10"/>
+     <przystanek numer="8" id="29107" nazwa="Dobroszycka" czas="11"/>
+     <przystanek numer="9" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="12"/>
+     <przystanek numer="10" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="13"/>
+     <przystanek numer="11" id="29521" nazwa="Królewska" czas="16"/>
+     <przystanek numer="12" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="18"/>
+    </czasy>
+    <tabliczka id="20" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="03">
+       </min>
+       <min m="25">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="26">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="11">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="14">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="07">
+       </min>
+       <min m="33">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="29">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+       <min m="29">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="21">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="20">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="11" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="36" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="58" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="15" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="46" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="06" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29314" nazwa="Kiełczowska" ulica="Kiełczowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29314" nazwa="Kiełczowska" czas="0"/>
+     <przystanek numer="1" id="29312" nazwa="Poleska" czas="1"/>
+     <przystanek numer="2" id="29322" nazwa="Szewczenki" czas="3"/>
+     <przystanek numer="3" id="29124" nazwa="Gorlicka" czas="4"/>
+     <przystanek numer="4" id="29100" nazwa="MULICKA" czas="5"/>
+     <przystanek numer="5" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="7"/>
+     <przystanek numer="6" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="8"/>
+     <przystanek numer="7" id="29107" nazwa="Dobroszycka" czas="9"/>
+     <przystanek numer="8" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="10"/>
+     <przystanek numer="9" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="11"/>
+     <przystanek numer="10" id="29521" nazwa="Królewska" czas="14"/>
+     <przystanek numer="11" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="16"/>
+    </czasy>
+    <tabliczka id="21" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="01">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="05">
+       </min>
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="00">
+       </min>
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="28">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="13">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="16">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="09">
+       </min>
+       <min m="35">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="31">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+       <min m="31">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="24">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="23">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="22">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="13" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="38" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="00" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="17" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="48" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="08" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29312" nazwa="Poleska" ulica="Kiełczowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29312" nazwa="Poleska" czas="0"/>
+     <przystanek numer="1" id="29322" nazwa="Szewczenki" czas="2"/>
+     <przystanek numer="2" id="29124" nazwa="Gorlicka" czas="3"/>
+     <przystanek numer="3" id="29100" nazwa="MULICKA" czas="4"/>
+     <przystanek numer="4" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="6"/>
+     <przystanek numer="5" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="7"/>
+     <przystanek numer="6" id="29107" nazwa="Dobroszycka" czas="8"/>
+     <przystanek numer="7" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="9"/>
+     <przystanek numer="8" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="10"/>
+     <przystanek numer="9" id="29521" nazwa="Królewska" czas="13"/>
+     <przystanek numer="10" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="15"/>
+    </czasy>
+    <tabliczka id="22" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="02">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="06">
+       </min>
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="01">
+       </min>
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="29">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="14">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="17">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="10">
+       </min>
+       <min m="36">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="32">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="12">
+       </min>
+       <min m="32">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="25">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="24">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="23">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="39" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="01" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="18" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="49" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="09" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29322" nazwa="Szewczenki" ulica="Gorlicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29322" nazwa="Szewczenki" czas="0"/>
+     <przystanek numer="1" id="29124" nazwa="Gorlicka" czas="1"/>
+     <przystanek numer="2" id="29100" nazwa="MULICKA" czas="2"/>
+     <przystanek numer="3" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="4"/>
+     <przystanek numer="4" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="5"/>
+     <przystanek numer="5" id="29107" nazwa="Dobroszycka" czas="6"/>
+     <przystanek numer="6" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="7"/>
+     <przystanek numer="7" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="8"/>
+     <przystanek numer="8" id="29521" nazwa="Królewska" czas="11"/>
+     <przystanek numer="9" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="13"/>
+    </czasy>
+    <tabliczka id="23" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="04">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="08">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="03">
+       </min>
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="31">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="16">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="12">
+       </min>
+       <min m="38">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="34">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="01">
+       </min>
+       <min m="27">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="01">
+       </min>
+       <min m="25">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="16" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="41" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="03" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="20" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="51" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="11" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29124" nazwa="Gorlicka" ulica="Gorlicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29124" nazwa="Gorlicka" czas="0"/>
+     <przystanek numer="1" id="29100" nazwa="MULICKA" czas="1"/>
+     <przystanek numer="2" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="3"/>
+     <przystanek numer="3" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="4"/>
+     <przystanek numer="4" id="29107" nazwa="Dobroszycka" czas="5"/>
+     <przystanek numer="5" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="6"/>
+     <przystanek numer="6" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="7"/>
+     <przystanek numer="7" id="29521" nazwa="Królewska" czas="10"/>
+     <przystanek numer="8" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="12"/>
+    </czasy>
+    <tabliczka id="24" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="05">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="09">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="04">
+       </min>
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="32">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="17">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="20">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="13">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="00">
+       </min>
+       <min m="35">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="15">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="02">
+       </min>
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="00">
+       </min>
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="02">
+       </min>
+       <min m="26">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="17" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="42" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="04" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="21" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="52" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="12" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29100" nazwa="MULICKA" ulica="ks. Mariana Stanety" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29100" nazwa="MULICKA" czas="0"/>
+     <przystanek numer="1" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="2"/>
+     <przystanek numer="2" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="3"/>
+     <przystanek numer="3" id="29107" nazwa="Dobroszycka" czas="4"/>
+     <przystanek numer="4" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="5"/>
+     <przystanek numer="5" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="6"/>
+     <przystanek numer="6" id="29521" nazwa="Królewska" czas="9"/>
+     <przystanek numer="7" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="11"/>
+    </czasy>
+    <tabliczka id="25" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="06">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="10">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="05">
+       </min>
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="33">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="18">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="21">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="14">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="01">
+       </min>
+       <min m="36">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="16">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="03">
+       </min>
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="01">
+       </min>
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="03">
+       </min>
+       <min m="27">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="18">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="18" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="43" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="05" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="22" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="53" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="13" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29115" nazwa="Psie Pole (Rondo Lotników Polskich)" czas="0"/>
+     <przystanek numer="1" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="1"/>
+     <przystanek numer="2" id="29107" nazwa="Dobroszycka" czas="2"/>
+     <przystanek numer="3" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="3"/>
+     <przystanek numer="4" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="4"/>
+     <przystanek numer="5" id="29521" nazwa="Królewska" czas="7"/>
+     <przystanek numer="6" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="9"/>
+    </czasy>
+    <tabliczka id="26" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="07">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="11">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="06">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="34">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="15">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="02">
+       </min>
+       <min m="37">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="17">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="04">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="02">
+       </min>
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="04">
+       </min>
+       <min m="28">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="44" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="06" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="23" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+       <min m="54" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="14" ozn="W" przyp="W - kurs do Osiedla Sobieskiego z pominięciem przystanku Bierutowska (Ośrodek zdrowia)">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29105" nazwa="PSIE POLE (Stacja kolejowa)" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29105" nazwa="PSIE POLE (Stacja kolejowa)" czas="0"/>
+     <przystanek numer="1" id="29107" nazwa="Dobroszycka" czas="1"/>
+     <przystanek numer="2" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="2"/>
+     <przystanek numer="3" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="3"/>
+     <przystanek numer="4" id="29521" nazwa="Królewska" czas="6"/>
+     <przystanek numer="5" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="8"/>
+    </czasy>
+    <tabliczka id="27" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="08">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="12">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="07">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="35">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="20">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="23">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="16">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="03">
+       </min>
+       <min m="38">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="18">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="05">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="03">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="05">
+       </min>
+       <min m="29">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29107" nazwa="Dobroszycka" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29107" nazwa="Dobroszycka" czas="0"/>
+     <przystanek numer="1" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="1"/>
+     <przystanek numer="2" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="2"/>
+     <przystanek numer="3" id="29521" nazwa="Królewska" czas="5"/>
+     <przystanek numer="4" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="7"/>
+    </czasy>
+    <tabliczka id="28" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="09">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="13">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="08">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="36">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="24">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="17">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="04">
+       </min>
+       <min m="39">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="19">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="06">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="04">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="06">
+       </min>
+       <min m="30">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29108" nazwa="BIERUTOWSKA (Ośrodek zdrowia)" czas="0"/>
+     <przystanek numer="1" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="1"/>
+     <przystanek numer="2" id="29521" nazwa="Królewska" czas="4"/>
+     <przystanek numer="3" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="6"/>
+    </czasy>
+    <tabliczka id="5" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="10">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="14">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="09">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="37">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="18">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="05">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="00">
+       </min>
+       <min m="20">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="07">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="05">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="07">
+       </min>
+       <min m="31">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29116" nazwa="PSIE POLE (Stacja kolejowa)" ulica="Bierutowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29116" nazwa="PSIE POLE (Stacja kolejowa)" czas="0"/>
+     <przystanek numer="1" id="29521" nazwa="Królewska" czas="3"/>
+     <przystanek numer="2" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="5"/>
+    </czasy>
+    <tabliczka id="29" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="10">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="38">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="23">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="26">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="19">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="01">
+       </min>
+       <min m="21">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="08">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="11">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="08">
+       </min>
+       <min m="32">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="25">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="07">
+       </min>
+       <min m="24">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="15">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29521" nazwa="Królewska" ulica="Królewska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="29521" nazwa="Królewska" czas="0"/>
+     <przystanek numer="1" id="29532" nazwa="OSIEDLE SOBIESKIEGO" czas="2"/>
+    </czasy>
+    <tabliczka id="30" mc="3">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="18">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="01">
+       </min>
+       <min m="26">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="01">
+       </min>
+       <min m="22">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="04">
+       </min>
+       <min m="24">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="11">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="11">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="00">
+       </min>
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="28">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="10">
+       </min>
+       <min m="27">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="18">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="29532" nazwa="OSIEDLE SOBIESKIEGO" ulica="Królewska" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+ </linia>
+</linie>
