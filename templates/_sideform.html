@@ -1,0 +1,27 @@
+<!-- Left-side Drawer/Form -->
+<div class="bg-gray-100 p-4">
+    <form id="map-form" action="/" method="get">
+       <div class="mb-4">
+            <label for="starting_stop" class="block text-gray-700 text-sm font-bold mb-2">Starting stop:</label>
+            <select class="select2-container block appearance-none w-full bg-white border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="starting_stop" name="starting_stop">
+                <option value="{{ form_data.stop_id }}" selected="selected">
+                    {{ form_data.stop_display_name }}
+                </option>
+            </select>
+        </div>
+
+        {% if map_type == 'default' %}
+        <div class="mb-4">
+            <label for="stop_reach_max_time" class="block text-gray-700 text-sm font-bold mb-2">Stop Reach Time:</label>
+            <div class="flex align-items-center">
+                <input type="range" id="stop_reach_max_time" name="stop_reach_max_time" min="10" max="100" step="5" value="{{ form_data.stop_reach_max_time }}" class="mr-2">
+                <span id="stop_reach_max_time_value">{{ form_data.stop_reach_max_time }}</span>min
+            </div>
+       </div>
+        {% endif %}
+
+     <input type="submit" value="Update Map"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4
+            rounded focus:outline-none focus:shadow-outline">
+    </form>
+</div>

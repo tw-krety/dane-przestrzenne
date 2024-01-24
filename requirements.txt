@@ -11,3 +11,8 @@ folium
 matplotlib
 mapclassify
 plotly
+jupyter
+chardet
+Flask
+Flask-Caching
+waitress

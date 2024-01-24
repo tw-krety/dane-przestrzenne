@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .select2-container {
+        width: 100% !important;
+    }
+    .map-container {
+        display: flex;
+        height: 400px;
+    }
+    .map {
+        flex: 1;
+        border: 1px solid #ddd;
+    }
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        height: 100vh;
+    }
+    .main-content {
+        overflow: auto;
+    }
+    .spinner {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border-left-color: #09f;
+        animation: spin 1s ease infinite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -18px; /* Half of height */
+        margin-left: -18px; /* Half of width */
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+<head>
+    <title>Map View</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex flex-col">
+
+    <!-- Navbar -->
+    {% include '_navbar.html' with context %}
+
+    <!-- Content Area -->
+    <div class="grid-layout">
+        {% include '_sideform.html' with context %}
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <div class="map-container p-4">
+                <div class="map" id="map1">
+                    <div class="spinner" hidden></div>
+                    {{ map1|safe }}
+                </div>
+                <div class="map" id="map2">
+                    <div class="spinner" hidden></div>
+                    {{ map2|safe }}
+                </div>
+            </div>
+
+            <!--    TODO map stats        -->
+        </div>
+    </div>
+
+    <!-- Stops search dropdown -->
+    <script>
+        $(document).ready(function() {
+            $('#starting_stop').select2({
+                ajax: {
+                    url: '/search_stops',
+                    dataType: 'json',
+                    delay: 50,
+                    data: function (params) {
+                        return {
+                            q: params.term,
+                            network_kind: $('#network_kind').val(),
+                            type: 'public'
+                        };
+                    }
+                }
+            });
+        });
+
+        $('#network_kind').change(function() {
+            let selectedValue = $(this).val();
+
+            // Check if the selected value is either 'tram' or 'bus' and not 'all'
+            if (selectedValue === 'tram' || selectedValue === 'bus') {
+                // Clear the Select2 dropdown
+                $('#starting_stop').val(null).trigger('change');
+            }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#stop_reach_max_time').on('input', function() {
+                $('#stop_reach_max_time_value').text($(this).val());
+            });
+        });
+    </script>
+
+    <!-- Updating maps -->
+    <script>
+        const updateMap = async (year, mapType) => {
+            try {
+                return await $.ajax({
+                    type: 'GET',
+                    url: '/update_map',
+                    data: {
+                        year: year,
+                        map_type: mapType,
+                        network_kind: $('#network_kind').val(),
+                        starting_stop: $('#starting_stop').val(),
+                        transfer_time: $('#transfer_time').val(),
+                        stop_reach_max_time: $('#stop_reach_max_time').val()
+                    },
+                    dataType: 'json'
+                });
+            } catch (error) {
+                console.error("Error updating map:", error);
+                throw error; // Rethrow to allow the caller to handle it
+            }
+        };
+
+        $(document).ready(() => {
+            $('#map-form').submit(async (event) => {
+                event.preventDefault();
+
+                let mapType = JSON.parse('{{ map_type|tojson }}');
+                $('.spinner').removeAttr('hidden'); // Show spinner
+
+                try {
+                    const [map1Response, map2Response] = await Promise.all([
+                        updateMap('2023', mapType),
+                        updateMap('2024', mapType)
+                    ]);
+
+                    $('#map1').html(map1Response.map_html);
+                    $('#map2').html(map2Response.map_html);
+                } catch (error) {
+                    console.error("Error updating maps:", error);
+                } finally {
+                    $('.spinner').attr('hidden', true); // Hide spinner
+                }
+            });
+        });
+    </script>
+</body>
+</html>

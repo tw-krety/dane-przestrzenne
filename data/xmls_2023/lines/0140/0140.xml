@@ -1,0 +1,8174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<linie>
+ <linia nazwa="140" typ="Normalna autobusowa" wazny_od="08.10.2022" wazny_do="">
+  <wariant id="1" nazwa="ŚLAZOWA - Kwiska">
+   <przystanek id="23314" nazwa="ŚLAZOWA" ulica="Ślazowa" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23314" nazwa="ŚLAZOWA" czas="0"/>
+     <przystanek numer="1" id="23316" nazwa="Góra Kapliczna" czas="1"/>
+     <przystanek numer="2" id="23312" nazwa="Witkowska" czas="2"/>
+     <przystanek numer="3" id="23306" nazwa="Lipska" czas="3"/>
+     <przystanek numer="4" id="23304" nazwa="Jarocińska" czas="4"/>
+     <przystanek numer="5" id="23302" nazwa="OSOBOWICE" czas="6"/>
+     <przystanek numer="6" id="23109" nazwa="most Milenijny" czas="8"/>
+     <przystanek numer="7" id="12319" nazwa="Hala Orbita" czas="10"/>
+     <przystanek numer="8" id="12317" nazwa="Wejherowska" czas="15"/>
+     <przystanek numer="9" id="12303" nazwa="Kwiska" czas="17"/>
+    </czasy>
+    <tabliczka id="1" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="19">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="07">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="06">
+       </min>
+       <min m="26" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="46" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="05">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="08">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="05">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="08">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23316" nazwa="Góra Kapliczna" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23316" nazwa="Góra Kapliczna" czas="0"/>
+     <przystanek numer="1" id="23312" nazwa="Witkowska" czas="1"/>
+     <przystanek numer="2" id="23306" nazwa="Lipska" czas="2"/>
+     <przystanek numer="3" id="23304" nazwa="Jarocińska" czas="3"/>
+     <przystanek numer="4" id="23302" nazwa="OSOBOWICE" czas="5"/>
+     <przystanek numer="5" id="23109" nazwa="most Milenijny" czas="7"/>
+     <przystanek numer="6" id="12319" nazwa="Hala Orbita" czas="9"/>
+     <przystanek numer="7" id="12317" nazwa="Wejherowska" czas="14"/>
+     <przystanek numer="8" id="12303" nazwa="Kwiska" czas="16"/>
+    </czasy>
+    <tabliczka id="2" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="20">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="08">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="16">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="17">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="07">
+       </min>
+       <min m="27" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="47" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="06">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="09">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="06">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="09">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23312" nazwa="Witkowska" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23312" nazwa="Witkowska" czas="0"/>
+     <przystanek numer="1" id="23306" nazwa="Lipska" czas="1"/>
+     <przystanek numer="2" id="23304" nazwa="Jarocińska" czas="2"/>
+     <przystanek numer="3" id="23302" nazwa="OSOBOWICE" czas="4"/>
+     <przystanek numer="4" id="23109" nazwa="most Milenijny" czas="6"/>
+     <przystanek numer="5" id="12319" nazwa="Hala Orbita" czas="8"/>
+     <przystanek numer="6" id="12317" nazwa="Wejherowska" czas="13"/>
+     <przystanek numer="7" id="12303" nazwa="Kwiska" czas="15"/>
+    </czasy>
+    <tabliczka id="3" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="21">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="09">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="17">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="02">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="02">
+       </min>
+       <min m="32">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="10">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="18">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="18">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="08">
+       </min>
+       <min m="28" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="48" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="07">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="10">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="07">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="10">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23306" nazwa="Lipska" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23306" nazwa="Lipska" czas="0"/>
+     <przystanek numer="1" id="23304" nazwa="Jarocińska" czas="1"/>
+     <przystanek numer="2" id="23302" nazwa="OSOBOWICE" czas="3"/>
+     <przystanek numer="3" id="23109" nazwa="most Milenijny" czas="5"/>
+     <przystanek numer="4" id="12319" nazwa="Hala Orbita" czas="7"/>
+     <przystanek numer="5" id="12317" nazwa="Wejherowska" czas="12"/>
+     <przystanek numer="6" id="12303" nazwa="Kwiska" czas="14"/>
+    </czasy>
+    <tabliczka id="4" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="22">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="10">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="18">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="18">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="09">
+       </min>
+       <min m="29" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="49" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="11">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="11">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23304" nazwa="Jarocińska" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23304" nazwa="Jarocińska" czas="0"/>
+     <przystanek numer="1" id="23302" nazwa="OSOBOWICE" czas="2"/>
+     <przystanek numer="2" id="23109" nazwa="most Milenijny" czas="4"/>
+     <przystanek numer="3" id="12319" nazwa="Hala Orbita" czas="6"/>
+     <przystanek numer="4" id="12317" nazwa="Wejherowska" czas="11"/>
+     <przystanek numer="5" id="12303" nazwa="Kwiska" czas="13"/>
+    </czasy>
+    <tabliczka id="5" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="23">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="11">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="19">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="12">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="20">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="10">
+       </min>
+       <min m="30" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="50" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="20">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="12">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="20">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="12">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23302" nazwa="OSOBOWICE" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23302" nazwa="OSOBOWICE" czas="0"/>
+     <przystanek numer="1" id="23109" nazwa="most Milenijny" czas="2"/>
+     <przystanek numer="2" id="12319" nazwa="Hala Orbita" czas="4"/>
+     <przystanek numer="3" id="12317" nazwa="Wejherowska" czas="9"/>
+     <przystanek numer="4" id="12303" nazwa="Kwiska" czas="11"/>
+    </czasy>
+    <tabliczka id="6" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="25">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="21">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="12">
+       </min>
+       <min m="32" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="52" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23109" nazwa="most Milenijny" ulica="most Milenijny" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23109" nazwa="most Milenijny" czas="0"/>
+     <przystanek numer="1" id="12319" nazwa="Hala Orbita" czas="2"/>
+     <przystanek numer="2" id="12317" nazwa="Wejherowska" czas="7"/>
+     <przystanek numer="3" id="12303" nazwa="Kwiska" czas="9"/>
+    </czasy>
+    <tabliczka id="7" mc="2" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="5">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="27">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="15">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="16">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="24">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="16">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="16">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12319" nazwa="Hala Orbita" ulica="Milenijna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12319" nazwa="Hala Orbita" czas="0"/>
+     <przystanek numer="1" id="12317" nazwa="Wejherowska" czas="5"/>
+     <przystanek numer="2" id="12303" nazwa="Kwiska" czas="7"/>
+    </czasy>
+    <tabliczka id="8" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="00">
+       </min>
+       <min m="29">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="28">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="16">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="18">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="25">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="15">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12317" nazwa="Wejherowska" ulica="Wejherowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12317" nazwa="Wejherowska" czas="0"/>
+     <przystanek numer="1" id="12303" nazwa="Kwiska" czas="2"/>
+    </czasy>
+    <tabliczka id="9" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="02">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="19">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="02">
+       </min>
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="00">
+       </min>
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="28">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12303" nazwa="Kwiska" ulica="Legnicka" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="2" nazwa="Kwiska - ŚLAZOWA">
+   <przystanek id="12303" nazwa="Kwiska" ulica="Legnicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12303" nazwa="Kwiska" czas="0"/>
+     <przystanek numer="1" id="12320" nazwa="Hala Orbita" czas="4"/>
+     <przystanek numer="2" id="23110" nazwa="most Milenijny" czas="5"/>
+     <przystanek numer="3" id="23301" nazwa="OSOBOWICE" czas="7"/>
+     <przystanek numer="4" id="23303" nazwa="Jarocińska" czas="9"/>
+     <przystanek numer="5" id="23311" nazwa="Lipska" czas="10"/>
+     <przystanek numer="6" id="23313" nazwa="Witkowska" czas="11"/>
+     <przystanek numer="7" id="23315" nazwa="Góra Kapliczna" czas="12"/>
+     <przystanek numer="8" id="23314" nazwa="ŚLAZOWA" czas="13"/>
+    </czasy>
+    <tabliczka id="10" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="05">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="12">
+       </min>
+       <min m="37">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="25">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="27">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="10">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="03">
+       </min>
+       <min m="21">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="03">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="32">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="03">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="32">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12320" nazwa="Hala Orbita" ulica="Milenijna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12320" nazwa="Hala Orbita" czas="0"/>
+     <przystanek numer="1" id="23110" nazwa="most Milenijny" czas="1"/>
+     <przystanek numer="2" id="23301" nazwa="OSOBOWICE" czas="3"/>
+     <przystanek numer="3" id="23303" nazwa="Jarocińska" czas="5"/>
+     <przystanek numer="4" id="23311" nazwa="Lipska" czas="6"/>
+     <przystanek numer="5" id="23313" nazwa="Witkowska" czas="7"/>
+     <przystanek numer="6" id="23315" nazwa="Góra Kapliczna" czas="8"/>
+     <przystanek numer="7" id="23314" nazwa="ŚLAZOWA" czas="9"/>
+    </czasy>
+    <tabliczka id="11" mc="3" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="08">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="15">
+       </min>
+       <min m="40">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="01">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="14">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="13">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="06">
+       </min>
+       <min m="24">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="06">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="35">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="06">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="35">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23110" nazwa="most Milenijny" ulica="most Milenijny" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23110" nazwa="most Milenijny" czas="0"/>
+     <przystanek numer="1" id="23301" nazwa="OSOBOWICE" czas="2"/>
+     <przystanek numer="2" id="23303" nazwa="Jarocińska" czas="4"/>
+     <przystanek numer="3" id="23311" nazwa="Lipska" czas="5"/>
+     <przystanek numer="4" id="23313" nazwa="Witkowska" czas="6"/>
+     <przystanek numer="5" id="23315" nazwa="Góra Kapliczna" czas="7"/>
+     <przystanek numer="6" id="23314" nazwa="ŚLAZOWA" czas="8"/>
+    </czasy>
+    <tabliczka id="12" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="09">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="16">
+       </min>
+       <min m="41">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="02">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="02">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="15">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="07">
+       </min>
+       <min m="25">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="07">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="36">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="07">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="36">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23301" nazwa="OSOBOWICE" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23301" nazwa="OSOBOWICE" czas="0"/>
+     <przystanek numer="1" id="23303" nazwa="Jarocińska" czas="2"/>
+     <przystanek numer="2" id="23311" nazwa="Lipska" czas="3"/>
+     <przystanek numer="3" id="23313" nazwa="Witkowska" czas="4"/>
+     <przystanek numer="4" id="23315" nazwa="Góra Kapliczna" czas="5"/>
+     <przystanek numer="5" id="23314" nazwa="ŚLAZOWA" czas="6"/>
+    </czasy>
+    <tabliczka id="13" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="01">
+       </min>
+       <min m="11">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="18">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="00">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="04">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="17">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="16">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="09">
+       </min>
+       <min m="27">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="09">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="38">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="09">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="38">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23303" nazwa="Jarocińska" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23303" nazwa="Jarocińska" czas="0"/>
+     <przystanek numer="1" id="23311" nazwa="Lipska" czas="1"/>
+     <przystanek numer="2" id="23313" nazwa="Witkowska" czas="2"/>
+     <przystanek numer="3" id="23315" nazwa="Góra Kapliczna" czas="3"/>
+     <przystanek numer="4" id="23314" nazwa="ŚLAZOWA" czas="4"/>
+    </czasy>
+    <tabliczka id="14" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="03">
+       </min>
+       <min m="13">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="20">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="02">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="06">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="18">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="11">
+       </min>
+       <min m="29">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="11">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="40">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="11">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="40">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23311" nazwa="Lipska" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23311" nazwa="Lipska" czas="0"/>
+     <przystanek numer="1" id="23313" nazwa="Witkowska" czas="1"/>
+     <przystanek numer="2" id="23315" nazwa="Góra Kapliczna" czas="2"/>
+     <przystanek numer="3" id="23314" nazwa="ŚLAZOWA" czas="3"/>
+    </czasy>
+    <tabliczka id="15" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="04">
+       </min>
+       <min m="14">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="21">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="03">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="07">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="20">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="29">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="29">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="19">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="12">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="12">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="41">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="12">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="41">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23313" nazwa="Witkowska" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23313" nazwa="Witkowska" czas="0"/>
+     <przystanek numer="1" id="23315" nazwa="Góra Kapliczna" czas="1"/>
+     <przystanek numer="2" id="23314" nazwa="ŚLAZOWA" czas="2"/>
+    </czasy>
+    <tabliczka id="16" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="05">
+       </min>
+       <min m="15">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="22">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="04">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="08">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="00">
+       </min>
+       <min m="20">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="13">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="13">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="42">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="13">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="42">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23315" nazwa="Góra Kapliczna" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23315" nazwa="Góra Kapliczna" czas="0"/>
+     <przystanek numer="1" id="23314" nazwa="ŚLAZOWA" czas="1"/>
+    </czasy>
+    <tabliczka id="17" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="06">
+       </min>
+       <min m="16">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="23">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="05">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="09">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="01">
+       </min>
+       <min m="21">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="14">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="14">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="43">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="14">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="43">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23314" nazwa="ŚLAZOWA" ulica="Ślazowa" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="3" nazwa="ŚLAZOWA - Zajezdnia Obornicka">
+   <przystanek id="23314" nazwa="ŚLAZOWA" ulica="Ślazowa" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23314" nazwa="ŚLAZOWA" czas="0"/>
+     <przystanek numer="1" id="23316" nazwa="Góra Kapliczna" czas="1"/>
+     <przystanek numer="2" id="23312" nazwa="Witkowska" czas="2"/>
+     <przystanek numer="3" id="23306" nazwa="Lipska" czas="3"/>
+     <przystanek numer="4" id="23304" nazwa="Jarocińska" czas="4"/>
+     <przystanek numer="5" id="23302" nazwa="OSOBOWICE" czas="6"/>
+     <przystanek numer="6" id="23109" nazwa="most Milenijny" czas="8"/>
+     <przystanek numer="7" id="12319" nazwa="Hala Orbita" czas="10"/>
+     <przystanek numer="8" id="12317" nazwa="Wejherowska" czas="15"/>
+     <przystanek numer="9" id="12303" nazwa="Kwiska" czas="17"/>
+    </czasy>
+    <tabliczka id="1" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="19">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="07">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="06">
+       </min>
+       <min m="26" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="46" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="05">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="08">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="05">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="08">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23316" nazwa="Góra Kapliczna" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23316" nazwa="Góra Kapliczna" czas="0"/>
+     <przystanek numer="1" id="23312" nazwa="Witkowska" czas="1"/>
+     <przystanek numer="2" id="23306" nazwa="Lipska" czas="2"/>
+     <przystanek numer="3" id="23304" nazwa="Jarocińska" czas="3"/>
+     <przystanek numer="4" id="23302" nazwa="OSOBOWICE" czas="5"/>
+     <przystanek numer="5" id="23109" nazwa="most Milenijny" czas="7"/>
+     <przystanek numer="6" id="12319" nazwa="Hala Orbita" czas="9"/>
+     <przystanek numer="7" id="12317" nazwa="Wejherowska" czas="14"/>
+     <przystanek numer="8" id="12303" nazwa="Kwiska" czas="16"/>
+    </czasy>
+    <tabliczka id="2" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="20">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="08">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="16">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="17">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="07">
+       </min>
+       <min m="27" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="47" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="06">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="09">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="06">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="09">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23312" nazwa="Witkowska" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23312" nazwa="Witkowska" czas="0"/>
+     <przystanek numer="1" id="23306" nazwa="Lipska" czas="1"/>
+     <przystanek numer="2" id="23304" nazwa="Jarocińska" czas="2"/>
+     <przystanek numer="3" id="23302" nazwa="OSOBOWICE" czas="4"/>
+     <przystanek numer="4" id="23109" nazwa="most Milenijny" czas="6"/>
+     <przystanek numer="5" id="12319" nazwa="Hala Orbita" czas="8"/>
+     <przystanek numer="6" id="12317" nazwa="Wejherowska" czas="13"/>
+     <przystanek numer="7" id="12303" nazwa="Kwiska" czas="15"/>
+    </czasy>
+    <tabliczka id="3" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="21">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="09">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="17">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="02">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="02">
+       </min>
+       <min m="32">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="10">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="18">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="18">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="08">
+       </min>
+       <min m="28" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="48" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="07">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="10">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="07">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="15">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="10">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23306" nazwa="Lipska" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23306" nazwa="Lipska" czas="0"/>
+     <przystanek numer="1" id="23304" nazwa="Jarocińska" czas="1"/>
+     <przystanek numer="2" id="23302" nazwa="OSOBOWICE" czas="3"/>
+     <przystanek numer="3" id="23109" nazwa="most Milenijny" czas="5"/>
+     <przystanek numer="4" id="12319" nazwa="Hala Orbita" czas="7"/>
+     <przystanek numer="5" id="12317" nazwa="Wejherowska" czas="12"/>
+     <przystanek numer="6" id="12303" nazwa="Kwiska" czas="14"/>
+    </czasy>
+    <tabliczka id="4" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="22">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="10">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="18">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="03">
+       </min>
+       <min m="33">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="18">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="09">
+       </min>
+       <min m="29" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="49" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="11">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="18">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="08">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="16">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="11">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23304" nazwa="Jarocińska" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23304" nazwa="Jarocińska" czas="0"/>
+     <przystanek numer="1" id="23302" nazwa="OSOBOWICE" czas="2"/>
+     <przystanek numer="2" id="23109" nazwa="most Milenijny" czas="4"/>
+     <przystanek numer="3" id="12319" nazwa="Hala Orbita" czas="6"/>
+     <przystanek numer="4" id="12317" nazwa="Wejherowska" czas="11"/>
+     <przystanek numer="5" id="12303" nazwa="Kwiska" czas="13"/>
+    </czasy>
+    <tabliczka id="5" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="23">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="11">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="19">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="12">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="20">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="10">
+       </min>
+       <min m="30" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="50" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="20">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="12">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="09">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="20">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="12">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23302" nazwa="OSOBOWICE" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23302" nazwa="OSOBOWICE" czas="0"/>
+     <przystanek numer="1" id="23109" nazwa="most Milenijny" czas="2"/>
+     <przystanek numer="2" id="12319" nazwa="Hala Orbita" czas="4"/>
+     <przystanek numer="3" id="12317" nazwa="Wejherowska" czas="9"/>
+     <przystanek numer="4" id="12303" nazwa="Kwiska" czas="11"/>
+    </czasy>
+    <tabliczka id="6" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="25">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="13">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="21">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="12">
+       </min>
+       <min m="32" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+       <min m="52" ozn="Z" przyp="Z -  zjazd do zajezdni przy ul. Obornickiej (do przyst. Osobowice po trasie)">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="11">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="19">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="123008" nazwa="OSOBOWICKA (Cmentarz)" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="123008" nazwa="OSOBOWICKA (Cmentarz)" czas="0"/>
+     <przystanek numer="1" id="123006" nazwa="OSOBOWICKA (Cmentarz II)" czas="1"/>
+     <przystanek numer="2" id="23111" nazwa="Łużycka" czas="3"/>
+     <przystanek numer="3" id="23113" nazwa="Różanka" czas="5"/>
+     <przystanek numer="4" id="23145" nazwa="Bezpieczna" czas="7"/>
+     <przystanek numer="5" id="23149" nazwa="Paprotna" czas="9"/>
+     <przystanek numer="6" id="9" nazwa="Zajezdnia Obornicka" czas="10"/>
+    </czasy>
+    <tabliczka id="18" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="23">
+       <min m="33">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="123006" nazwa="OSOBOWICKA (Cmentarz II)" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="123006" nazwa="OSOBOWICKA (Cmentarz II)" czas="0"/>
+     <przystanek numer="1" id="23111" nazwa="Łużycka" czas="2"/>
+     <przystanek numer="2" id="23113" nazwa="Różanka" czas="4"/>
+     <przystanek numer="3" id="23145" nazwa="Bezpieczna" czas="6"/>
+     <przystanek numer="4" id="23149" nazwa="Paprotna" czas="8"/>
+     <przystanek numer="5" id="9" nazwa="Zajezdnia Obornicka" czas="9"/>
+    </czasy>
+    <tabliczka id="19" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="23">
+       <min m="34">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23111" nazwa="Łużycka" ulica="Łużycka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23111" nazwa="Łużycka" czas="0"/>
+     <przystanek numer="1" id="23113" nazwa="Różanka" czas="2"/>
+     <przystanek numer="2" id="23145" nazwa="Bezpieczna" czas="4"/>
+     <przystanek numer="3" id="23149" nazwa="Paprotna" czas="6"/>
+     <przystanek numer="4" id="9" nazwa="Zajezdnia Obornicka" czas="7"/>
+    </czasy>
+    <tabliczka id="20" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="23">
+       <min m="35">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23113" nazwa="Różanka" ulica="Bezpieczna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23113" nazwa="Różanka" czas="0"/>
+     <przystanek numer="1" id="23145" nazwa="Bezpieczna" czas="2"/>
+     <przystanek numer="2" id="23149" nazwa="Paprotna" czas="4"/>
+     <przystanek numer="3" id="9" nazwa="Zajezdnia Obornicka" czas="5"/>
+    </czasy>
+    <tabliczka id="21" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="23">
+       <min m="36">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23145" nazwa="Bezpieczna" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23145" nazwa="Bezpieczna" czas="0"/>
+     <przystanek numer="1" id="23149" nazwa="Paprotna" czas="2"/>
+     <przystanek numer="2" id="9" nazwa="Zajezdnia Obornicka" czas="3"/>
+    </czasy>
+    <tabliczka id="22" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="23">
+       <min m="38">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23149" nazwa="Paprotna" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23149" nazwa="Paprotna" czas="0"/>
+     <przystanek numer="1" id="9" nazwa="Zajezdnia Obornicka" czas="1"/>
+    </czasy>
+    <tabliczka id="23" mc="2" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="23">
+       <min m="39">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="9" nazwa="Zajezdnia Obornicka" ulica="Obornicka" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="4" nazwa="Zajezdnia Obornicka - Kwiska">
+   <przystanek id="9" nazwa="Zajezdnia Obornicka" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="9" nazwa="Zajezdnia Obornicka" czas="0"/>
+     <przystanek numer="1" id="23151" nazwa="Irysowa" czas="2"/>
+     <przystanek numer="2" id="23156" nazwa="Obornicka (Obwodnica)" czas="3"/>
+     <przystanek numer="3" id="23109" nazwa="most Milenijny" czas="7"/>
+     <przystanek numer="4" id="12319" nazwa="Hala Orbita" czas="9"/>
+     <przystanek numer="5" id="12317" nazwa="Wejherowska" czas="14"/>
+     <przystanek numer="6" id="12303" nazwa="Kwiska" czas="16"/>
+    </czasy>
+    <tabliczka id="24" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="52">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23151" nazwa="Irysowa" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23151" nazwa="Irysowa" czas="0"/>
+     <przystanek numer="1" id="23156" nazwa="Obornicka (Obwodnica)" czas="1"/>
+     <przystanek numer="2" id="23109" nazwa="most Milenijny" czas="5"/>
+     <przystanek numer="3" id="12319" nazwa="Hala Orbita" czas="7"/>
+     <przystanek numer="4" id="12317" nazwa="Wejherowska" czas="12"/>
+     <przystanek numer="5" id="12303" nazwa="Kwiska" czas="14"/>
+    </czasy>
+    <tabliczka id="26" mc="2" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="54">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23156" nazwa="Obornicka (Obwodnica)" ulica="Nowaka-Jeziorańskiego" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23156" nazwa="Obornicka (Obwodnica)" czas="0"/>
+     <przystanek numer="1" id="23109" nazwa="most Milenijny" czas="4"/>
+     <przystanek numer="2" id="12319" nazwa="Hala Orbita" czas="6"/>
+     <przystanek numer="3" id="12317" nazwa="Wejherowska" czas="11"/>
+     <przystanek numer="4" id="12303" nazwa="Kwiska" czas="13"/>
+    </czasy>
+    <tabliczka id="27" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="55">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23109" nazwa="most Milenijny" ulica="most Milenijny" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23109" nazwa="most Milenijny" czas="0"/>
+     <przystanek numer="1" id="12319" nazwa="Hala Orbita" czas="2"/>
+     <przystanek numer="2" id="12317" nazwa="Wejherowska" czas="7"/>
+     <przystanek numer="3" id="12303" nazwa="Kwiska" czas="9"/>
+    </czasy>
+    <tabliczka id="7" mc="4" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="5">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="27">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="15">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="16">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="23">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="24">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="14">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="16">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="29">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="13">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="16">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12319" nazwa="Hala Orbita" ulica="Milenijna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12319" nazwa="Hala Orbita" czas="0"/>
+     <przystanek numer="1" id="12317" nazwa="Wejherowska" czas="5"/>
+     <przystanek numer="2" id="12303" nazwa="Kwiska" czas="7"/>
+    </czasy>
+    <tabliczka id="8" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="00">
+       </min>
+       <min m="29">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="28">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="16">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="16">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="18">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="25">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="15">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="24">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="14">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12317" nazwa="Wejherowska" ulica="Wejherowska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="12317" nazwa="Wejherowska" czas="0"/>
+     <przystanek numer="1" id="12303" nazwa="Kwiska" czas="2"/>
+    </czasy>
+    <tabliczka id="9" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="02">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="19">
+       </min>
+       <min m="57">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="27">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="02">
+       </min>
+       <min m="23">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="00">
+       </min>
+       <min m="25">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="28">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="24">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="17">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="32">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="26">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="17">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="25">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="28">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="19">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="12303" nazwa="Kwiska" ulica="Legnicka" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+  <wariant id="5" nazwa="Zajezdnia Obornicka - ŚLAZOWA">
+   <przystanek id="9" nazwa="Zajezdnia Obornicka" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="9" nazwa="Zajezdnia Obornicka" czas="0"/>
+     <przystanek numer="1" id="23150" nazwa="Paprotna" czas="1"/>
+     <przystanek numer="2" id="23148" nazwa="Obornicka (Wołowska)" czas="2"/>
+     <przystanek numer="3" id="23116" nazwa="Bezpieczna" czas="3"/>
+     <przystanek numer="4" id="23114" nazwa="Różanka" czas="4"/>
+     <przystanek numer="5" id="23112" nazwa="Łużycka" czas="5"/>
+     <przystanek numer="6" id="23105" nazwa="OSOBOWICKA (Cmentarz II)" czas="7"/>
+     <przystanek numer="7" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="8"/>
+     <przystanek numer="8" id="23301" nazwa="OSOBOWICE" czas="10"/>
+     <przystanek numer="9" id="23303" nazwa="Jarocińska" czas="12"/>
+     <przystanek numer="10" id="23311" nazwa="Lipska" czas="13"/>
+     <przystanek numer="11" id="23313" nazwa="Witkowska" czas="14"/>
+     <przystanek numer="12" id="23315" nazwa="Góra Kapliczna" czas="15"/>
+     <przystanek numer="13" id="23314" nazwa="ŚLAZOWA" czas="16"/>
+    </czasy>
+    <tabliczka id="25" mc="0">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="53">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23150" nazwa="Paprotna" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23150" nazwa="Paprotna" czas="0"/>
+     <przystanek numer="1" id="23148" nazwa="Obornicka (Wołowska)" czas="1"/>
+     <przystanek numer="2" id="23116" nazwa="Bezpieczna" czas="2"/>
+     <przystanek numer="3" id="23114" nazwa="Różanka" czas="3"/>
+     <przystanek numer="4" id="23112" nazwa="Łużycka" czas="4"/>
+     <przystanek numer="5" id="23105" nazwa="OSOBOWICKA (Cmentarz II)" czas="6"/>
+     <przystanek numer="6" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="7"/>
+     <przystanek numer="7" id="23301" nazwa="OSOBOWICE" czas="9"/>
+     <przystanek numer="8" id="23303" nazwa="Jarocińska" czas="11"/>
+     <przystanek numer="9" id="23311" nazwa="Lipska" czas="12"/>
+     <przystanek numer="10" id="23313" nazwa="Witkowska" czas="13"/>
+     <przystanek numer="11" id="23315" nazwa="Góra Kapliczna" czas="14"/>
+     <przystanek numer="12" id="23314" nazwa="ŚLAZOWA" czas="15"/>
+    </czasy>
+    <tabliczka id="28" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="54">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23148" nazwa="Obornicka (Wołowska)" ulica="Obornicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23148" nazwa="Obornicka (Wołowska)" czas="0"/>
+     <przystanek numer="1" id="23116" nazwa="Bezpieczna" czas="1"/>
+     <przystanek numer="2" id="23114" nazwa="Różanka" czas="2"/>
+     <przystanek numer="3" id="23112" nazwa="Łużycka" czas="3"/>
+     <przystanek numer="4" id="23105" nazwa="OSOBOWICKA (Cmentarz II)" czas="5"/>
+     <przystanek numer="5" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="6"/>
+     <przystanek numer="6" id="23301" nazwa="OSOBOWICE" czas="8"/>
+     <przystanek numer="7" id="23303" nazwa="Jarocińska" czas="10"/>
+     <przystanek numer="8" id="23311" nazwa="Lipska" czas="11"/>
+     <przystanek numer="9" id="23313" nazwa="Witkowska" czas="12"/>
+     <przystanek numer="10" id="23315" nazwa="Góra Kapliczna" czas="13"/>
+     <przystanek numer="11" id="23314" nazwa="ŚLAZOWA" czas="14"/>
+    </czasy>
+    <tabliczka id="29" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="55">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23116" nazwa="Bezpieczna" ulica="Bezpieczna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23116" nazwa="Bezpieczna" czas="0"/>
+     <przystanek numer="1" id="23114" nazwa="Różanka" czas="1"/>
+     <przystanek numer="2" id="23112" nazwa="Łużycka" czas="2"/>
+     <przystanek numer="3" id="23105" nazwa="OSOBOWICKA (Cmentarz II)" czas="4"/>
+     <przystanek numer="4" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="5"/>
+     <przystanek numer="5" id="23301" nazwa="OSOBOWICE" czas="7"/>
+     <przystanek numer="6" id="23303" nazwa="Jarocińska" czas="9"/>
+     <przystanek numer="7" id="23311" nazwa="Lipska" czas="10"/>
+     <przystanek numer="8" id="23313" nazwa="Witkowska" czas="11"/>
+     <przystanek numer="9" id="23315" nazwa="Góra Kapliczna" czas="12"/>
+     <przystanek numer="10" id="23314" nazwa="ŚLAZOWA" czas="13"/>
+    </czasy>
+    <tabliczka id="30" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="56">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23114" nazwa="Różanka" ulica="Bezpieczna" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23114" nazwa="Różanka" czas="0"/>
+     <przystanek numer="1" id="23112" nazwa="Łużycka" czas="1"/>
+     <przystanek numer="2" id="23105" nazwa="OSOBOWICKA (Cmentarz II)" czas="3"/>
+     <przystanek numer="3" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="4"/>
+     <przystanek numer="4" id="23301" nazwa="OSOBOWICE" czas="6"/>
+     <przystanek numer="5" id="23303" nazwa="Jarocińska" czas="8"/>
+     <przystanek numer="6" id="23311" nazwa="Lipska" czas="9"/>
+     <przystanek numer="7" id="23313" nazwa="Witkowska" czas="10"/>
+     <przystanek numer="8" id="23315" nazwa="Góra Kapliczna" czas="11"/>
+     <przystanek numer="9" id="23314" nazwa="ŚLAZOWA" czas="12"/>
+    </czasy>
+    <tabliczka id="31" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="57">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23112" nazwa="Łużycka" ulica="Łużycka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23112" nazwa="Łużycka" czas="0"/>
+     <przystanek numer="1" id="23105" nazwa="OSOBOWICKA (Cmentarz II)" czas="2"/>
+     <przystanek numer="2" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="3"/>
+     <przystanek numer="3" id="23301" nazwa="OSOBOWICE" czas="5"/>
+     <przystanek numer="4" id="23303" nazwa="Jarocińska" czas="7"/>
+     <przystanek numer="5" id="23311" nazwa="Lipska" czas="8"/>
+     <przystanek numer="6" id="23313" nazwa="Witkowska" czas="9"/>
+     <przystanek numer="7" id="23315" nazwa="Góra Kapliczna" czas="10"/>
+     <przystanek numer="8" id="23314" nazwa="ŚLAZOWA" czas="11"/>
+    </czasy>
+    <tabliczka id="32" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="58">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23105" nazwa="OSOBOWICKA (Cmentarz II)" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23105" nazwa="OSOBOWICKA (Cmentarz II)" czas="0"/>
+     <przystanek numer="1" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="1"/>
+     <przystanek numer="2" id="23301" nazwa="OSOBOWICE" czas="3"/>
+     <przystanek numer="3" id="23303" nazwa="Jarocińska" czas="5"/>
+     <przystanek numer="4" id="23311" nazwa="Lipska" czas="6"/>
+     <przystanek numer="5" id="23313" nazwa="Witkowska" czas="7"/>
+     <przystanek numer="6" id="23315" nazwa="Góra Kapliczna" czas="8"/>
+     <przystanek numer="7" id="23314" nazwa="ŚLAZOWA" czas="9"/>
+    </czasy>
+    <tabliczka id="33" mc="2" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="4">
+       <min m="59">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23107" nazwa="OSOBOWICKA (Cmentarz)" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23107" nazwa="OSOBOWICKA (Cmentarz)" czas="0"/>
+     <przystanek numer="1" id="23301" nazwa="OSOBOWICE" czas="2"/>
+     <przystanek numer="2" id="23303" nazwa="Jarocińska" czas="4"/>
+     <przystanek numer="3" id="23311" nazwa="Lipska" czas="5"/>
+     <przystanek numer="4" id="23313" nazwa="Witkowska" czas="6"/>
+     <przystanek numer="5" id="23315" nazwa="Góra Kapliczna" czas="7"/>
+     <przystanek numer="6" id="23314" nazwa="ŚLAZOWA" czas="8"/>
+    </czasy>
+    <tabliczka id="34" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="00">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23301" nazwa="OSOBOWICE" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23301" nazwa="OSOBOWICE" czas="0"/>
+     <przystanek numer="1" id="23303" nazwa="Jarocińska" czas="2"/>
+     <przystanek numer="2" id="23311" nazwa="Lipska" czas="3"/>
+     <przystanek numer="3" id="23313" nazwa="Witkowska" czas="4"/>
+     <przystanek numer="4" id="23315" nazwa="Góra Kapliczna" czas="5"/>
+     <przystanek numer="5" id="23314" nazwa="ŚLAZOWA" czas="6"/>
+    </czasy>
+    <tabliczka id="13" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="01">
+       </min>
+       <min m="11">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="18">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="00">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="04">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="04">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="17">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="17">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="26">
+       </min>
+       <min m="56">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="16">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="10">
+       </min>
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="09">
+       </min>
+       <min m="27">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="09">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="38">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="09">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="38">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23303" nazwa="Jarocińska" ulica="Osobowicka" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23303" nazwa="Jarocińska" czas="0"/>
+     <przystanek numer="1" id="23311" nazwa="Lipska" czas="1"/>
+     <przystanek numer="2" id="23313" nazwa="Witkowska" czas="2"/>
+     <przystanek numer="3" id="23315" nazwa="Góra Kapliczna" czas="3"/>
+     <przystanek numer="4" id="23314" nazwa="ŚLAZOWA" czas="4"/>
+    </czasy>
+    <tabliczka id="14" mc="2">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="03">
+       </min>
+       <min m="13">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="20">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="02">
+       </min>
+       <min m="33">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="06">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="06">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="19">
+       </min>
+       <min m="49">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="19">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="28">
+       </min>
+       <min m="58">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="18">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="11">
+       </min>
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="11">
+       </min>
+       <min m="29">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="11">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="40">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="11">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="40">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="40">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23311" nazwa="Lipska" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23311" nazwa="Lipska" czas="0"/>
+     <przystanek numer="1" id="23313" nazwa="Witkowska" czas="1"/>
+     <przystanek numer="2" id="23315" nazwa="Góra Kapliczna" czas="2"/>
+     <przystanek numer="3" id="23314" nazwa="ŚLAZOWA" czas="3"/>
+    </czasy>
+    <tabliczka id="15" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="04">
+       </min>
+       <min m="14">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="21">
+       </min>
+       <min m="46">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="03">
+       </min>
+       <min m="34">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="07">
+       </min>
+       <min m="37">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="07">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="20">
+       </min>
+       <min m="50">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="20">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="29">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="29">
+       </min>
+       <min m="59">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="19">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="12">
+       </min>
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="12">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="12">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="41">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="12">
+       </min>
+       <min m="53">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="41">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="41">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23313" nazwa="Witkowska" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23313" nazwa="Witkowska" czas="0"/>
+     <przystanek numer="1" id="23315" nazwa="Góra Kapliczna" czas="1"/>
+     <przystanek numer="2" id="23314" nazwa="ŚLAZOWA" czas="2"/>
+    </czasy>
+    <tabliczka id="16" mc="1">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="05">
+       </min>
+       <min m="15">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="22">
+       </min>
+       <min m="47">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="04">
+       </min>
+       <min m="35">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="08">
+       </min>
+       <min m="38">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="08">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="21">
+       </min>
+       <min m="51">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="21">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="00">
+       </min>
+       <min m="30">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="00">
+       </min>
+       <min m="20">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="13">
+       </min>
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="13">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="13">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="42">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="13">
+       </min>
+       <min m="54">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="42">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="42">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23315" nazwa="Góra Kapliczna" ulica="Lipska" cechy="">
+    <czasy>
+     <przystanek numer="0" id="23315" nazwa="Góra Kapliczna" czas="0"/>
+     <przystanek numer="1" id="23314" nazwa="ŚLAZOWA" czas="1"/>
+    </czasy>
+    <tabliczka id="17" mc="1" cechy="NZ">
+     <dzien nazwa="w dni robocze">
+      <godz h="5">
+       <min m="06">
+       </min>
+       <min m="16">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="6">
+       <min m="23">
+       </min>
+       <min m="48">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="05">
+       </min>
+       <min m="36">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="09">
+       </min>
+       <min m="39">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="09">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="22">
+       </min>
+       <min m="52">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="22">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="01">
+       </min>
+       <min m="31">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="01">
+       </min>
+       <min m="21">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="15">
+       </min>
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="20">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="21">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="22">
+       <min m="14">
+       </min>
+       <min m="44">
+       </min>
+      </godz>
+      <godz h="23">
+       <min m="14">
+       </min>
+       <min m="32">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Sobota">
+      <godz h="6">
+       <min m="14">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="43">
+       </min>
+      </godz>
+     </dzien>
+     <dzien nazwa="Niedziela">
+      <godz h="6">
+       <min m="14">
+       </min>
+       <min m="55">
+       </min>
+      </godz>
+      <godz h="7">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="8">
+       <min m="45">
+       </min>
+      </godz>
+      <godz h="9">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="10">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="11">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="12">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="13">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="14">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="15">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="16">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="17">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="18">
+       <min m="43">
+       </min>
+      </godz>
+      <godz h="19">
+       <min m="43">
+       </min>
+      </godz>
+     </dzien>
+    </tabliczka>
+   </przystanek>
+   <przystanek id="23314" nazwa="ŚLAZOWA" ulica="Ślazowa" cechy="">
+    <czasy>
+    </czasy>
+   </przystanek>
+  </wariant>
+ </linia>
+</linie>
