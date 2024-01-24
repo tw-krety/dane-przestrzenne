@@ -41,12 +41,9 @@ app.config.from_mapping(app_config)
 cache = Cache(app)
 
 
-# MAP type 'iso', 'default'
-
-
 @app.route('/')
 def map_view():
-    starting_stop_id: int = request.args.get('starting_stop', default=cfg.DEFAULT_STARTING_STOP_ID, type=int)
+    starting_stop_id: int = request.args.get('starting_stop', default=cfg.DEFAULT_STARTING_STOP_IDENT, type=int)
     transfer_time = request.args.get('transfer_time', default=cfg.DEFAULT_TRANSFER_TIME, type=int)
     stop_reach_max_time = int(request.args.get('stop_reach_max_time', default=cfg.DEFAULT_STOP_REACH_MAX_TIME))
     network_kind = request.args.get("network_kind", default="all", type=str)
@@ -68,16 +65,17 @@ def map_view():
 
 @app.route('/isochrones')
 def iso_map_view():
-    starting_stop_id: int = request.args.get('starting_stop', default=cfg.DEFAULT_STARTING_STOP_ID, type=int)
+    starting_stop_id: int = request.args.get('starting_stop', default=cfg.DEFAULT_STARTING_STOP_IDENT, type=int)
+    transfer_time = request.args.get('transfer_time', default=cfg.DEFAULT_TRANSFER_TIME, type=int)
     stop_reach_max_time = int(request.args.get('stop_reach_max_time', default=cfg.DEFAULT_STOP_REACH_MAX_TIME))
     network_kind = request.args.get("network_kind", default="all", type=str)
 
     stop: StopDTO = STOP_REPOS['all'].get_by_id(starting_stop_id)
-    form_data = FormData(stop.id, stop.display_name, 0, stop_reach_max_time)
+    form_data = FormData(stop.id, stop.display_name, transfer_time, stop_reach_max_time)
 
     # isochrone maps
-    iso_map1 = compute_isochrone_map(stop.name, 0, f"{network_kind}_2023")
-    iso_map2 = compute_isochrone_map(stop.name, 0, f"{network_kind}_2024")
+    iso_map1 = compute_isochrone_map(stop.name, transfer_time, f"{network_kind}_2023")
+    iso_map2 = compute_isochrone_map(stop.name, transfer_time, f"{network_kind}_2024")
 
     return render_template(
         'page.html',
@@ -108,7 +106,7 @@ def search_stops():
 
 @app.route("/update_map", methods=["GET"])
 def update_map():
-    starting_stop_id = request.args.get('starting_stop', type=int)
+    starting_stop_id = request.args.get('starting_stop', type=str)
     transfer_time = request.args.get('transfer_time', type=int)
     stop_reach_max_time = request.args.get('stop_reach_max_time', type=int)
     year = request.args.get('year', type=str)

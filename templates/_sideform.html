@@ -10,6 +10,7 @@
             </select>
         </div>
 
+        {% if map_type == 'default' %}
         <div class="mb-4">
             <label for="stop_reach_max_time" class="block text-gray-700 text-sm font-bold mb-2">Stop Reach Time:</label>
             <div class="flex align-items-center">
@@ -17,6 +18,7 @@
                 <span id="stop_reach_max_time_value">{{ form_data.stop_reach_max_time }}</span>min
             </div>
        </div>
+        {% endif %}
 
      <input type="submit" value="Update Map"
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4

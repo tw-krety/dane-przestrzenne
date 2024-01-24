@@ -20,7 +20,25 @@
     .main-content {
         overflow: auto;
     }
-    </style>
+    .spinner {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border-left-color: #09f;
+        animation: spin 1s ease infinite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -18px; /* Half of height */
+        margin-left: -18px; /* Half of width */
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
 <head>
     <title>Map View</title>
 
@@ -46,12 +64,16 @@
         <div class="main-content">
             <div class="map-container p-4">
                 <div class="map" id="map1">
+                    <div class="spinner" hidden></div>
                     {{ map1|safe }}
                 </div>
                 <div class="map" id="map2">
+                    <div class="spinner" hidden></div>
                     {{ map2|safe }}
                 </div>
             </div>
+
+            <!--    TODO map stats        -->
         </div>
     </div>
 
@@ -72,6 +94,16 @@
                     }
                 }
             });
+        });
+
+        $('#network_kind').change(function() {
+            let selectedValue = $(this).val();
+
+            // Check if the selected value is either 'tram' or 'bus' and not 'all'
+            if (selectedValue === 'tram' || selectedValue === 'bus') {
+                // Clear the Select2 dropdown
+                $('#starting_stop').val(null).trigger('change');
+            }
         });
     </script>
 
@@ -111,6 +143,7 @@
                 event.preventDefault();
 
                 let mapType = JSON.parse('{{ map_type|tojson }}');
+                $('.spinner').removeAttr('hidden'); // Show spinner
 
                 try {
                     const [map1Response, map2Response] = await Promise.all([
@@ -122,6 +155,8 @@
                     $('#map2').html(map2Response.map_html);
                 } catch (error) {
                     console.error("Error updating maps:", error);
+                } finally {
+                    $('.spinner').attr('hidden', true); // Hide spinner
                 }
             });
         });
