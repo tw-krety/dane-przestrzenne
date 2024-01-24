@@ -20,7 +20,7 @@
     .main-content {
         overflow: auto;
     }
-</style>
+    </style>
 <head>
     <title>Map View</title>
 
@@ -36,69 +36,20 @@
 <body class="flex flex-col">
 
     <!-- Navbar -->
-    <nav class="bg-gray-800 p-4 w-full">
-        <div class="container mx-auto flex items-center justify-between">
-            <div class="flex items-center">
-                <a href="/" class="text-gray-300 hover:text-white mr-4">Stop reachability</a>
-                <a href="/isochrones" class="text-gray-300 hover:text-white">Isochrones</a>
-            </div>
-
-            <div class="flex items-center">
-                <div class="mr-4">
-                    <label for="transfer_time" class="text-gray-300 text-sm">Transfer time (min):</label>
-                    <input type="number" id="transfer_time" name="transfer_time" value="{{ form_data.transfer_time }}"
-                           class="bg-gray-700 text-white rounded border border-gray-600">
-                </div>
-
-                <div>
-                    <label for="network_kind" class="text-gray-300 text-sm">Network Kind:</label>
-                    <select id="network_kind" name="network_kind" class="bg-gray-700 text-white rounded border border-gray-600">
-                        <option value="all" selected>Tram + Bus</option>
-                        <option value="tram">Tram only</option>
-                        <option value="bus">Bus only</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-    </nav>
+    {% include '_navbar.html' with context %}
 
     <!-- Content Area -->
     <div class="grid-layout">
-        <!-- Left-side Drawer/Form -->
-        <div class="bg-gray-100 p-4">
-            <form id="map-form" action="/" method="get">
-               <div class="mb-4">
-                    <label for="starting_stop" class="block text-gray-700 text-sm font-bold mb-2">Starting stop:</label>
-                    <select class="select2-container block appearance-none w-full bg-white border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="starting_stop" name="starting_stop">
-                        <option value="{{ form_data.stop_id }}" selected="selected">
-                            {{ form_data.stop_display_name }}
-                        </option>
-                    </select>
-                </div>
-
-                <div class="mb-4">
-                    <label for="stop_reach_max_time" class="block text-gray-700 text-sm font-bold mb-2">Stop Reach Time:</label>
-                    <div class="flex align-items-center">
-                        <input type="range" id="stop_reach_max_time" name="stop_reach_max_time" min="10" max="100" step="5" value="{{ form_data.stop_reach_max_time }}" class="mr-2">
-                        <span id="stop_reach_max_time_value">{{ form_data.stop_reach_max_time }}</span>min
-                    </div>
-               </div>
-
-             <input type="submit" value="Update Map"
-                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4
-                    rounded focus:outline-none focus:shadow-outline">
-            </form>
-        </div>
+        {% include '_sideform.html' with context %}
 
         <!-- Main Content Area -->
         <div class="main-content">
-            <!-- Maps -->
             <div class="map-container p-4">
                 <div class="map" id="map1">
-                    {{ default_map1|safe }}
+                    {{ map1|safe }}
                 </div>
                 <div class="map" id="map2">
-                    {{ default_map2|safe }}
+                    {{ map2|safe }}
                 </div>
             </div>
         </div>
@@ -159,10 +110,12 @@
             $('#map-form').submit(async (event) => {
                 event.preventDefault();
 
+                let mapType = JSON.parse('{{ map_type|tojson }}');
+
                 try {
                     const [map1Response, map2Response] = await Promise.all([
-                        updateMap('2023', 'default'),
-                        updateMap('2024', 'default')
+                        updateMap('2023', mapType),
+                        updateMap('2024', mapType)
                     ]);
 
                     $('#map1').html(map1Response.map_html);

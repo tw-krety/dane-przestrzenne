@@ -1,0 +1,31 @@
+<nav class="bg-gray-800 p-4 w-full">
+    <div class="container mx-auto flex items-center justify-between">
+        <div class="flex items-center">
+            <a href="/"
+               class="hover:text-white mr-4 {{ 'text-gray-100' if map_type == 'default' else 'text-gray-300' }}">
+                Stop reachability
+            </a>
+            <a href="/isochrones"
+               class="hover:text-white {{ 'text-gray-100' if map_type == 'iso' else 'text-gray-300' }}">
+                Isochrones
+            </a>
+        </div>
+
+        <div class="flex items-center">
+            <div class="mr-4">
+                <label for="transfer_time" class="text-gray-300 text-sm">Transfer time (min):</label>
+                <input type="number" id="transfer_time" name="transfer_time" value="{{ form_data.transfer_time }}"
+                       class="bg-gray-700 text-white rounded border border-gray-600">
+            </div>
+
+            <div>
+                <label for="network_kind" class="text-gray-300 text-sm">Network Kind:</label>
+                <select id="network_kind" name="network_kind" class="bg-gray-700 text-white rounded border border-gray-600">
+                    <option value="all" selected>Tram + Bus</option>
+                    <option value="tram">Tram only</option>
+                    <option value="bus">Bus only</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</nav>
