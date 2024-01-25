@@ -76,7 +76,7 @@ def get_izochrone_map(regions_resolution: int, graph_loader: MPKGraphLoader, tra
 
     unused_hexes = gpd.GeoDataFrame(regions['geometry'])
     unused_hexes = unused_hexes[~unused_hexes['geometry'].isin(already_collored)]
-    map_ = unused_hexes.explore(color='#a9a9a9', m=map_)
+    map_ = unused_hexes.explore(color='#a9a9a9', m=map_, highlight=False, tooltip=False)
 
     starting_stop = _get_starting_stop(graph_loader, transfer_cfg)
     map_ = starting_stop.explore(color="#ff0000", m=map_)

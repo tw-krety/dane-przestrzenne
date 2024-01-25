@@ -63,17 +63,25 @@
         <!-- Main Content Area -->
         <div class="main-content">
             <div class="map-container p-4">
-                <div class="map" id="map1">
-                    <div class="spinner" hidden></div>
-                    {{ map1|safe }}
-                </div>
-                <div class="map" id="map2">
-                    <div class="spinner" hidden></div>
-                    {{ map2|safe }}
-                </div>
-            </div>
 
-            <!--    TODO map stats        -->
+                <div class="flex-1">
+                    <div class="text-center text-2xl pb-2">2023</div>
+                    <div class="spinner" hidden></div>
+                    <div class="map mr-2" id="map1">
+                        {{ map1|safe }}
+                    </div>
+                </div>
+
+                <div class="flex-1">
+                    <div class="text-center text-2xl pb-2">2024</div>
+                    <div class="spinner" hidden></div>  <!-- TODO spinners not visible -->
+                    <div class="map ml-2" id="map2">
+                        {{ map2|safe }}
+                    </div>
+                </div>
+
+            </div>
+            <!-- TODO map stats -->
         </div>
     </div>
 
