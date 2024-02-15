@@ -9,7 +9,7 @@ Witold Frącek \
 Michał Skrzypa \
 Rafał Piwnik
 
-
+# Metryki dotyczące grafu komunikacji miejskiej Wrocławia
 
 |metric|2023|2024|
 |:-----|---:|---:|
