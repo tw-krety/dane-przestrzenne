@@ -5,8 +5,8 @@ flask run
 ```
 
 # Autorzy
-Witold Frącek
-Michał Skrzypa
+Witold Frącek \
+Michał Skrzypa \
 Rafał Piwnik
 
 
