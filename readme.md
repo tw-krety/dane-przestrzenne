@@ -1,3 +1,16 @@
+# Uruchomienie
+Żeby uruchomić stronę wystarczy wywołać w głównym folderze projektu
+```bat
+flask run
+```
+
+# Autorzy
+Witold Frącek
+Michał Skrzypa
+Rafał Piwnik
+
+
+
 |metric|2023|2024|
 |:-----|---:|---:|
 |Nodes count|2064|2149|
